@@ -1,0 +1,85 @@
+# ================= #
+# Content and Fonts #
+# ================= #
+Assets/StreamingAssets/Content
+Assets/Resources/Assets/Fonts
+Assets/DeploymentInfo.json
+Assets/DeploymentInfo.json.meta
+
+# =============== #
+# Unity generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+Temp/
+Library/
+MemoryCaptures/
+SerializedBuildInfo/
+Obj/
+Logs/
+UserSettings/
+[Oo]bj/
+#[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+Assets/AssetStoreTools*
+*.apk
+*.psd
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+.vs/
+*.bak
+.vsconfig
+
+# ============================ #
+# Unity3D generated meta files #
+# ============================ #
+*.pidb.meta
+*.pdb.meta
+
+# ======================================= #
+# Unity3D Generated File On Crash Reports #
+# ======================================= #
+sysinfo.txt
+
+# ====== #
+# Builds #
+# ====== #
+*.apk
+*.unitypackage
+
+# ======= #
+# Plugins #
+# ======= #
+
+# === #
+# CMS #
+# === #
+CMS/[Ll]ibrary/
+CMS/[Tt]emp/
+CMS/[Dd]ebug/
+CMS/[Aa]ssets/[Ss]treamingAssets/
+
+# ============= #
+# Asset Bundler #
+# ============= #
+AssetBundles/[Ll]ibrary/
+AssetBundles/[Tt]emp/
+AssetBundles/[Dd]ebug/
