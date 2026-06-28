@@ -1,0 +1,2515 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 472013827c85eda4694c447ff88d57f5, type: 3}
+  m_Name: BakedGrid
+  m_EditorClassIdentifier: Assembly-CSharp::BakedGrid
+  cells:
+  - gridPosition: {x: 0, y: 0}
+    worldPosition: {x: 9.47, y: -0.083330154, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 1}
+    worldPosition: {x: 10.335, y: -0.063681126, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 2}
+    worldPosition: {x: 9.47, y: -0.083330154, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 3}
+    worldPosition: {x: 10.335, y: -0.030561447, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 4}
+    worldPosition: {x: 9.47, y: -0.083330154, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 5}
+    worldPosition: {x: 10.335, y: -0.06803794, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 6}
+    worldPosition: {x: 9.47, y: -0.083330154, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 7}
+    worldPosition: {x: 10.335, y: -0.083330154, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 8}
+    worldPosition: {x: 9.47, y: -0.083330154, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 9}
+    worldPosition: {x: 10.335, y: -0.17697676, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 10}
+    worldPosition: {x: 9.47, y: -0.083330154, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 11}
+    worldPosition: {x: 10.335, y: -0.13321702, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 12}
+    worldPosition: {x: 9.47, y: -0.083330154, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 13}
+    worldPosition: {x: 10.335, y: -0.083330154, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 14}
+    worldPosition: {x: 9.47, y: -0.083330154, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 15}
+    worldPosition: {x: 10.335, y: -0.05491638, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 16}
+    worldPosition: {x: 9.47, y: 0.005970001, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 17}
+    worldPosition: {x: 10.335, y: 0.00031669927, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 18}
+    worldPosition: {x: 9.47, y: 0.37611115, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 19}
+    worldPosition: {x: 10.335, y: 0.40281704, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 20}
+    worldPosition: {x: 9.47, y: 1.6497419, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 21}
+    worldPosition: {x: 10.335, y: 0.17374659, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 22}
+    worldPosition: {x: 9.47, y: 0.20885304, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 23}
+    worldPosition: {x: 10.335, y: 0.028877934, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 0, y: 24}
+    worldPosition: {x: 9.47, y: -0.011001176, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 0}
+    worldPosition: {x: 11.200001, y: -0.04564676, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 1}
+    worldPosition: {x: 12.065001, y: 0.27612042, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 2}
+    worldPosition: {x: 11.200001, y: 0.17865849, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 3}
+    worldPosition: {x: 12.065001, y: 0.89943975, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 4}
+    worldPosition: {x: 11.200001, y: 0.24800013, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 5}
+    worldPosition: {x: 12.065001, y: 0.64024115, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 6}
+    worldPosition: {x: 11.200001, y: 0.026258953, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 7}
+    worldPosition: {x: 12.065001, y: 0.24604118, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 8}
+    worldPosition: {x: 11.200001, y: -0.07000683, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 9}
+    worldPosition: {x: 12.065001, y: -0.17263031, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 10}
+    worldPosition: {x: 11.200001, y: -0.17668915, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 11}
+    worldPosition: {x: 12.065001, y: -0.17668915, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 12}
+    worldPosition: {x: 11.200001, y: -0.17668915, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 13}
+    worldPosition: {x: 12.065001, y: -0.17668915, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 14}
+    worldPosition: {x: 11.200001, y: -0.083330154, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 15}
+    worldPosition: {x: 12.065001, y: -0.15231326, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 16}
+    worldPosition: {x: 11.200001, y: -0.04345764, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 17}
+    worldPosition: {x: 12.065001, y: -0.20962545, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 18}
+    worldPosition: {x: 11.200001, y: -0.24502249, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 19}
+    worldPosition: {x: 12.065001, y: -0.31620067, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 20}
+    worldPosition: {x: 11.200001, y: -0.03231772, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 21}
+    worldPosition: {x: 12.065001, y: -0.4009333, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 22}
+    worldPosition: {x: 11.200001, y: -0.03622388, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 23}
+    worldPosition: {x: 12.065001, y: -0.10749426, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 1, y: 24}
+    worldPosition: {x: 11.200001, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 0}
+    worldPosition: {x: 12.93, y: 0.21321756, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 1}
+    worldPosition: {x: 13.795, y: 1.2849036, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 2}
+    worldPosition: {x: 12.93, y: 1.3488224, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 3}
+    worldPosition: {x: 13.795, y: 2.1532269, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 4}
+    worldPosition: {x: 12.93, y: 1.6991605, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 5}
+    worldPosition: {x: 13.795, y: 2.0869744, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 6}
+    worldPosition: {x: 12.93, y: 1.262654, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 7}
+    worldPosition: {x: 13.795, y: 1.890205, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 8}
+    worldPosition: {x: 12.93, y: 0.55783135, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 9}
+    worldPosition: {x: 13.795, y: -0.07780276, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 10}
+    worldPosition: {x: 12.93, y: -0.16856956, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 11}
+    worldPosition: {x: 13.795, y: -0.1698412, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 12}
+    worldPosition: {x: 12.93, y: -0.17668915, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 13}
+    worldPosition: {x: 13.795, y: -0.17668915, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 14}
+    worldPosition: {x: 12.93, y: -0.11331412, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 15}
+    worldPosition: {x: 13.795, y: -0.23577796, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 16}
+    worldPosition: {x: 12.93, y: -0.36972934, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 17}
+    worldPosition: {x: 13.795, y: -0.45394304, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 18}
+    worldPosition: {x: 12.93, y: -0.38934833, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 19}
+    worldPosition: {x: 13.795, y: -0.54736173, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 20}
+    worldPosition: {x: 12.93, y: -0.73658466, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 21}
+    worldPosition: {x: 13.795, y: -0.736061, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 22}
+    worldPosition: {x: 12.93, y: -0.3338914, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 23}
+    worldPosition: {x: 13.795, y: -0.12597486, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 2, y: 24}
+    worldPosition: {x: 12.93, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 0}
+    worldPosition: {x: 14.66, y: 0.6941268, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 1}
+    worldPosition: {x: 15.525001, y: 2.0181131, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 2}
+    worldPosition: {x: 14.66, y: 2.2203093, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 3}
+    worldPosition: {x: 15.525001, y: 2.2871761, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 4}
+    worldPosition: {x: 14.66, y: 2.2871761, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 5}
+    worldPosition: {x: 15.525001, y: 2.2871761, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 6}
+    worldPosition: {x: 14.66, y: 2.2178917, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 7}
+    worldPosition: {x: 15.525001, y: 2.5148933, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 8}
+    worldPosition: {x: 14.66, y: 1.5543891, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 9}
+    worldPosition: {x: 15.525001, y: 1.1364497, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 10}
+    worldPosition: {x: 14.66, y: -0.02984581, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 11}
+    worldPosition: {x: 15.525001, y: -0.09106326, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 12}
+    worldPosition: {x: 14.66, y: -0.17668915, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 13}
+    worldPosition: {x: 15.525001, y: -0.17668915, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 14}
+    worldPosition: {x: 14.66, y: -0.13781324, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 15}
+    worldPosition: {x: 15.525001, y: -0.124240436, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 16}
+    worldPosition: {x: 14.66, y: -0.39930376, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 17}
+    worldPosition: {x: 15.525001, y: -0.27410698, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 18}
+    worldPosition: {x: 14.66, y: -0.38599077, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 19}
+    worldPosition: {x: 15.525001, y: -0.2682762, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 20}
+    worldPosition: {x: 14.66, y: -0.6133642, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 21}
+    worldPosition: {x: 15.525001, y: -0.2968929, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 22}
+    worldPosition: {x: 14.66, y: -0.24287674, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 23}
+    worldPosition: {x: 15.525001, y: -0.08569025, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 3, y: 24}
+    worldPosition: {x: 14.66, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 0}
+    worldPosition: {x: 16.39, y: 1.0565188, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 1}
+    worldPosition: {x: 17.255001, y: 2.0881178, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 2}
+    worldPosition: {x: 16.39, y: 2.2871761, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 3}
+    worldPosition: {x: 17.255001, y: 2.2871761, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 4}
+    worldPosition: {x: 16.39, y: 2.2871761, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 5}
+    worldPosition: {x: 17.255001, y: 2.2882063, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 6}
+    worldPosition: {x: 16.39, y: 2.3072026, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 7}
+    worldPosition: {x: 17.255001, y: 2.5638843, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 8}
+    worldPosition: {x: 16.39, y: 2.766341, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 9}
+    worldPosition: {x: 17.255001, y: 2.63185, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 10}
+    worldPosition: {x: 16.39, y: 0.6119392, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 11}
+    worldPosition: {x: 17.255001, y: 0.13550007, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 12}
+    worldPosition: {x: 16.39, y: -0.12389024, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 13}
+    worldPosition: {x: 17.255001, y: -0.17668915, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 14}
+    worldPosition: {x: 16.39, y: -0.17668915, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 15}
+    worldPosition: {x: 17.255001, y: -0.083330154, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 16}
+    worldPosition: {x: 16.39, y: -0.121335216, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 17}
+    worldPosition: {x: 17.255001, y: -0.083330154, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 18}
+    worldPosition: {x: 16.39, y: -0.16494161, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 19}
+    worldPosition: {x: 17.255001, y: -0.083330154, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 20}
+    worldPosition: {x: 16.39, y: -0.1536974, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 21}
+    worldPosition: {x: 17.255001, y: -0.083330154, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 22}
+    worldPosition: {x: 16.39, y: -0.11250064, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 23}
+    worldPosition: {x: 17.255001, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 4, y: 24}
+    worldPosition: {x: 16.39, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 0}
+    worldPosition: {x: 18.119999, y: 0.8273771, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 1}
+    worldPosition: {x: 18.985, y: 1.721052, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 2}
+    worldPosition: {x: 18.119999, y: 2.2871761, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 3}
+    worldPosition: {x: 18.985, y: 2.2871761, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 4}
+    worldPosition: {x: 18.119999, y: 2.2871761, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 5}
+    worldPosition: {x: 18.985, y: 2.2882063, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 6}
+    worldPosition: {x: 18.119999, y: 2.3475153, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 7}
+    worldPosition: {x: 18.985, y: 2.4872627, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 8}
+    worldPosition: {x: 18.119999, y: 2.7241383, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 9}
+    worldPosition: {x: 18.985, y: 2.8022673, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 10}
+    worldPosition: {x: 18.119999, y: 1.3835102, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 11}
+    worldPosition: {x: 18.985, y: 0.119364254, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 12}
+    worldPosition: {x: 18.119999, y: -0.083183445, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 13}
+    worldPosition: {x: 18.985, y: -0.17668915, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 14}
+    worldPosition: {x: 18.119999, y: -0.17668915, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 15}
+    worldPosition: {x: 18.985, y: -0.18884087, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 16}
+    worldPosition: {x: 18.119999, y: -0.083330154, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 17}
+    worldPosition: {x: 18.985, y: -0.16596721, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 18}
+    worldPosition: {x: 18.119999, y: -0.083330154, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 19}
+    worldPosition: {x: 18.985, y: -0.1912143, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 20}
+    worldPosition: {x: 18.119999, y: -0.083330154, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 21}
+    worldPosition: {x: 18.985, y: -0.083330154, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 22}
+    worldPosition: {x: 18.119999, y: -0.083330154, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 23}
+    worldPosition: {x: 18.985, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 5, y: 24}
+    worldPosition: {x: 18.119999, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 0}
+    worldPosition: {x: 19.85, y: 0.29780778, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 1}
+    worldPosition: {x: 20.715, y: 0.73911047, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 2}
+    worldPosition: {x: 19.85, y: 2.125783, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 3}
+    worldPosition: {x: 20.715, y: 2.2532356, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 4}
+    worldPosition: {x: 19.85, y: 2.2871761, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 5}
+    worldPosition: {x: 20.715, y: 2.2871761, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 6}
+    worldPosition: {x: 19.85, y: 2.316675, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 7}
+    worldPosition: {x: 20.715, y: 2.3560803, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 8}
+    worldPosition: {x: 19.85, y: 2.4270592, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 9}
+    worldPosition: {x: 20.715, y: 2.4736567, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 10}
+    worldPosition: {x: 19.85, y: 1.17174, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 11}
+    worldPosition: {x: 20.715, y: -0.10184988, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 12}
+    worldPosition: {x: 19.85, y: -0.15481651, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 13}
+    worldPosition: {x: 20.715, y: -0.17668915, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 14}
+    worldPosition: {x: 19.85, y: -0.17668915, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 15}
+    worldPosition: {x: 20.715, y: -0.15108027, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 16}
+    worldPosition: {x: 19.85, y: -0.32313818, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 17}
+    worldPosition: {x: 20.715, y: -0.24924327, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 18}
+    worldPosition: {x: 19.85, y: -0.351868, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 19}
+    worldPosition: {x: 20.715, y: -0.15231189, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 20}
+    worldPosition: {x: 19.85, y: -0.28975207, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 21}
+    worldPosition: {x: 20.715, y: -0.26869404, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 22}
+    worldPosition: {x: 19.85, y: -0.083330154, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 23}
+    worldPosition: {x: 20.715, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 6, y: 24}
+    worldPosition: {x: 19.85, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 0}
+    worldPosition: {x: 21.580002, y: -0.083330154, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 1}
+    worldPosition: {x: 22.445, y: -0.042970873, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 2}
+    worldPosition: {x: 21.580002, y: 1.2433639, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 3}
+    worldPosition: {x: 22.445, y: 1.5879917, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 4}
+    worldPosition: {x: 21.580002, y: 2.2831173, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 5}
+    worldPosition: {x: 22.445, y: 2.2871761, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 6}
+    worldPosition: {x: 21.580002, y: 2.2871761, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 7}
+    worldPosition: {x: 22.445, y: 2.2871761, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 8}
+    worldPosition: {x: 21.580002, y: 2.360239, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 9}
+    worldPosition: {x: 22.445, y: 1.6369779, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 10}
+    worldPosition: {x: 21.580002, y: 0.34711665, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 11}
+    worldPosition: {x: 22.445, y: 0.03187652, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 12}
+    worldPosition: {x: 21.580002, y: -0.16451073, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 13}
+    worldPosition: {x: 22.445, y: -0.17668915, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 14}
+    worldPosition: {x: 21.580002, y: -0.17668915, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 15}
+    worldPosition: {x: 22.445, y: -0.083330154, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 16}
+    worldPosition: {x: 21.580002, y: -0.09482872, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 17}
+    worldPosition: {x: 22.445, y: -0.083330154, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 18}
+    worldPosition: {x: 21.580002, y: -0.084546804, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 19}
+    worldPosition: {x: 22.445, y: -0.083330154, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 20}
+    worldPosition: {x: 21.580002, y: -0.17088619, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 21}
+    worldPosition: {x: 22.445, y: -0.2948701, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 22}
+    worldPosition: {x: 21.580002, y: -0.11861775, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 23}
+    worldPosition: {x: 22.445, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 7, y: 24}
+    worldPosition: {x: 21.580002, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 0}
+    worldPosition: {x: 23.310001, y: -0.20228416, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 1}
+    worldPosition: {x: 24.175, y: -0.34700212, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 2}
+    worldPosition: {x: 23.310001, y: 0.015960045, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 3}
+    worldPosition: {x: 24.175, y: 0.1673612, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 4}
+    worldPosition: {x: 23.310001, y: 1.7726814, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 5}
+    worldPosition: {x: 24.175, y: 1.7920312, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 6}
+    worldPosition: {x: 23.310001, y: 2.2806323, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 7}
+    worldPosition: {x: 24.175, y: 2.121318, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 8}
+    worldPosition: {x: 23.310001, y: 2.1873064, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 9}
+    worldPosition: {x: 24.175, y: 0.97390515, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 10}
+    worldPosition: {x: 23.310001, y: 0.1338552, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 11}
+    worldPosition: {x: 24.175, y: -0.10607613, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 1
+  - gridPosition: {x: 8, y: 12}
+    worldPosition: {x: 23.310001, y: -0.15624642, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 13}
+    worldPosition: {x: 24.175, y: -0.17668915, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 14}
+    worldPosition: {x: 23.310001, y: -0.17668915, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 15}
+    worldPosition: {x: 24.175, y: -0.083330154, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 16}
+    worldPosition: {x: 23.310001, y: -0.083330154, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 17}
+    worldPosition: {x: 24.175, y: -0.083330154, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 18}
+    worldPosition: {x: 23.310001, y: -0.083330154, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 19}
+    worldPosition: {x: 24.175, y: -0.083330154, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 20}
+    worldPosition: {x: 23.310001, y: -0.083330154, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 21}
+    worldPosition: {x: 24.175, y: -0.14819092, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 22}
+    worldPosition: {x: 23.310001, y: -0.23894504, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 23}
+    worldPosition: {x: 24.175, y: -0.118372105, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 8, y: 24}
+    worldPosition: {x: 23.310001, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 0}
+    worldPosition: {x: 25.04, y: -0.9637687, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 1}
+    worldPosition: {x: 25.904999, y: -1.0360769, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 2}
+    worldPosition: {x: 25.04, y: -0.5417186, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 3}
+    worldPosition: {x: 25.904999, y: -0.70202935, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 4}
+    worldPosition: {x: 25.04, y: 0.40326232, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 5}
+    worldPosition: {x: 25.904999, y: 0.38168877, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 6}
+    worldPosition: {x: 25.04, y: 1.5159492, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 7}
+    worldPosition: {x: 25.904999, y: 0.77801824, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 8}
+    worldPosition: {x: 25.04, y: 1.2268658, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 9}
+    worldPosition: {x: 25.904999, y: 0.22425309, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 10}
+    worldPosition: {x: 25.04, y: -0.042158887, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 11}
+    worldPosition: {x: 25.904999, y: -0.13474429, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 1
+  - gridPosition: {x: 9, y: 12}
+    worldPosition: {x: 25.04, y: -0.17668915, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 1
+  - gridPosition: {x: 9, y: 13}
+    worldPosition: {x: 25.904999, y: -0.08738899, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 14}
+    worldPosition: {x: 25.04, y: -0.11813769, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 15}
+    worldPosition: {x: 25.904999, y: -0.083330154, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 16}
+    worldPosition: {x: 25.04, y: -0.083330154, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 17}
+    worldPosition: {x: 25.904999, y: -0.083330154, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 18}
+    worldPosition: {x: 25.04, y: -0.083330154, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 19}
+    worldPosition: {x: 25.904999, y: -0.083330154, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 20}
+    worldPosition: {x: 25.04, y: -0.083330154, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 21}
+    worldPosition: {x: 25.904999, y: -0.09144783, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 22}
+    worldPosition: {x: 25.04, y: -0.27639568, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 23}
+    worldPosition: {x: 25.904999, y: -0.34362972, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 9, y: 24}
+    worldPosition: {x: 25.04, y: -0.11396805, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 0}
+    worldPosition: {x: 26.77, y: -1.5034213, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 1}
+    worldPosition: {x: 27.634998, y: -1.5466564, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 2}
+    worldPosition: {x: 26.77, y: -1.1303852, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 3}
+    worldPosition: {x: 27.634998, y: -1.2204459, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 4}
+    worldPosition: {x: 26.77, y: -0.8062026, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 5}
+    worldPosition: {x: 27.634998, y: -0.87353176, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 6}
+    worldPosition: {x: 26.77, y: 0.20080566, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 7}
+    worldPosition: {x: 27.634998, y: -0.011018569, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 8}
+    worldPosition: {x: 26.77, y: 0.17708962, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 9}
+    worldPosition: {x: 27.634998, y: -0.046708703, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 10}
+    worldPosition: {x: 26.77, y: -0.047146257, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 11}
+    worldPosition: {x: 27.634998, y: -0.083330154, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 12}
+    worldPosition: {x: 26.77, y: -0.083330154, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 13}
+    worldPosition: {x: 27.634998, y: -0.083330154, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 14}
+    worldPosition: {x: 26.77, y: -0.083330154, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 15}
+    worldPosition: {x: 27.634998, y: -0.22709827, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 16}
+    worldPosition: {x: 26.77, y: -0.09127668, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 17}
+    worldPosition: {x: 27.634998, y: -0.10798813, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 18}
+    worldPosition: {x: 26.77, y: -0.083330154, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 19}
+    worldPosition: {x: 27.634998, y: -0.08914742, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 20}
+    worldPosition: {x: 26.77, y: -0.084352024, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 21}
+    worldPosition: {x: 27.634998, y: -0.3060908, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 22}
+    worldPosition: {x: 26.77, y: -0.27185005, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 23}
+    worldPosition: {x: 27.634998, y: -0.2883916, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 10, y: 24}
+    worldPosition: {x: 26.77, y: -0.34485376, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 0}
+    worldPosition: {x: 28.5, y: -1.3789895, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 1}
+    worldPosition: {x: 29.365002, y: -1.2243958, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 2}
+    worldPosition: {x: 28.5, y: -1.5778556, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 3}
+    worldPosition: {x: 29.365002, y: -1.5891776, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 4}
+    worldPosition: {x: 28.5, y: -1.2897611, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 5}
+    worldPosition: {x: 29.365002, y: -1.4964347, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 6}
+    worldPosition: {x: 28.5, y: -0.920484, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 7}
+    worldPosition: {x: 29.365002, y: -0.94068646, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 8}
+    worldPosition: {x: 28.5, y: -0.09835689, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 9}
+    worldPosition: {x: 29.365002, y: -0.10089372, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 10}
+    worldPosition: {x: 28.5, y: -0.083330154, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 11}
+    worldPosition: {x: 29.365002, y: -0.083330154, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 12}
+    worldPosition: {x: 28.5, y: -0.083330154, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 13}
+    worldPosition: {x: 29.365002, y: -0.32170704, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 14}
+    worldPosition: {x: 28.5, y: -0.22360666, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 15}
+    worldPosition: {x: 29.365002, y: -0.25655198, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 16}
+    worldPosition: {x: 28.5, y: -0.3172156, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 17}
+    worldPosition: {x: 29.365002, y: -0.31469727, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 18}
+    worldPosition: {x: 28.5, y: -0.17225043, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 19}
+    worldPosition: {x: 29.365002, y: -0.25652087, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 20}
+    worldPosition: {x: 28.5, y: -0.29460606, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 21}
+    worldPosition: {x: 29.365002, y: -0.12001865, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 22}
+    worldPosition: {x: 28.5, y: -0.15105163, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 23}
+    worldPosition: {x: 29.365002, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 11, y: 24}
+    worldPosition: {x: 28.5, y: -0.10840143, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 0}
+    worldPosition: {x: 30.23, y: -0.5021408, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 1}
+    worldPosition: {x: 31.095001, y: -0.35346642, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 2}
+    worldPosition: {x: 30.23, y: -1.1531718, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 3}
+    worldPosition: {x: 31.095001, y: -1.0757467, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 4}
+    worldPosition: {x: 30.23, y: -1.7946322, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 5}
+    worldPosition: {x: 31.095001, y: -2.0544941, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 6}
+    worldPosition: {x: 30.23, y: -1.4398994, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 7}
+    worldPosition: {x: 31.095001, y: -1.2412959, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 8}
+    worldPosition: {x: 30.23, y: -0.92324007, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 9}
+    worldPosition: {x: 31.095001, y: -0.86362904, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 10}
+    worldPosition: {x: 30.23, y: -0.08460109, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 11}
+    worldPosition: {x: 31.095001, y: -0.1452546, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 12}
+    worldPosition: {x: 30.23, y: -0.20231268, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 13}
+    worldPosition: {x: 31.095001, y: -0.22115791, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 14}
+    worldPosition: {x: 30.23, y: -0.1926983, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 15}
+    worldPosition: {x: 31.095001, y: -0.083330154, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 16}
+    worldPosition: {x: 30.23, y: -0.13431153, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 17}
+    worldPosition: {x: 31.095001, y: -0.092034996, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 18}
+    worldPosition: {x: 30.23, y: -0.24078658, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 19}
+    worldPosition: {x: 31.095001, y: -0.083330154, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 20}
+    worldPosition: {x: 30.23, y: -0.08960583, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 21}
+    worldPosition: {x: 31.095001, y: -0.083330154, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 22}
+    worldPosition: {x: 30.23, y: -0.083330154, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 23}
+    worldPosition: {x: 31.095001, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 12, y: 24}
+    worldPosition: {x: 30.23, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 0}
+    worldPosition: {x: 31.96, y: -0.083330154, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 1}
+    worldPosition: {x: 32.825, y: -0.083330154, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 2}
+    worldPosition: {x: 31.96, y: -0.2973276, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 3}
+    worldPosition: {x: 32.825, y: -0.40353706, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 4}
+    worldPosition: {x: 31.96, y: -1.2133545, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 5}
+    worldPosition: {x: 32.825, y: -1.2627621, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 6}
+    worldPosition: {x: 31.96, y: -1.9383316, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 7}
+    worldPosition: {x: 32.825, y: -1.7719384, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 8}
+    worldPosition: {x: 31.96, y: -1.0091671, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 9}
+    worldPosition: {x: 32.825, y: -0.96009254, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 10}
+    worldPosition: {x: 31.96, y: -0.7265231, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 11}
+    worldPosition: {x: 32.825, y: -0.74539423, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 12}
+    worldPosition: {x: 31.96, y: -0.4671541, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 13}
+    worldPosition: {x: 32.825, y: -0.083330154, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 14}
+    worldPosition: {x: 31.96, y: -0.083330154, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 15}
+    worldPosition: {x: 32.825, y: -0.083330154, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 16}
+    worldPosition: {x: 31.96, y: -0.083330154, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 17}
+    worldPosition: {x: 32.825, y: 0.040723313, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 18}
+    worldPosition: {x: 31.96, y: -0.049083047, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 19}
+    worldPosition: {x: 32.825, y: 0.07104154, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 20}
+    worldPosition: {x: 31.96, y: -0.07637604, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 21}
+    worldPosition: {x: 32.825, y: -0.05731889, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 22}
+    worldPosition: {x: 31.96, y: -0.083330154, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 23}
+    worldPosition: {x: 32.825, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 13, y: 24}
+    worldPosition: {x: 31.96, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 0}
+    worldPosition: {x: 33.690002, y: -0.083330154, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 1}
+    worldPosition: {x: 34.555, y: -0.083330154, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 2}
+    worldPosition: {x: 33.690002, y: -0.083330154, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 3}
+    worldPosition: {x: 34.555, y: -0.083330154, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 4}
+    worldPosition: {x: 33.690002, y: -0.5989155, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 5}
+    worldPosition: {x: 34.555, y: -0.8010267, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 6}
+    worldPosition: {x: 33.690002, y: -1.4952186, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 7}
+    worldPosition: {x: 34.555, y: -1.6809653, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 8}
+    worldPosition: {x: 33.690002, y: -1.5333873, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 9}
+    worldPosition: {x: 34.555, y: -1.3373595, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 10}
+    worldPosition: {x: 33.690002, y: -0.7685749, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 11}
+    worldPosition: {x: 34.555, y: -0.9560337, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 12}
+    worldPosition: {x: 33.690002, y: -0.16882624, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 13}
+    worldPosition: {x: 34.555, y: -0.083330154, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 14}
+    worldPosition: {x: 33.690002, y: -0.083330154, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 15}
+    worldPosition: {x: 34.555, y: -0.007679958, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 16}
+    worldPosition: {x: 33.690002, y: 0.05905153, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 17}
+    worldPosition: {x: 34.555, y: 0.25010914, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 18}
+    worldPosition: {x: 33.690002, y: 0.15787932, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 19}
+    worldPosition: {x: 34.555, y: 0.34209788, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 20}
+    worldPosition: {x: 33.690002, y: 0.12180423, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 21}
+    worldPosition: {x: 34.555, y: 0.10777872, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 22}
+    worldPosition: {x: 33.690002, y: -0.05897522, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 23}
+    worldPosition: {x: 34.555, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 14, y: 24}
+    worldPosition: {x: 33.690002, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 0}
+    worldPosition: {x: 35.420002, y: -0.083330154, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 1}
+    worldPosition: {x: 36.285, y: -0.083330154, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 2}
+    worldPosition: {x: 35.420002, y: -0.083330154, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 3}
+    worldPosition: {x: 36.285, y: -0.083330154, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 4}
+    worldPosition: {x: 35.420002, y: -0.08905002, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 5}
+    worldPosition: {x: 36.285, y: -0.12672724, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 6}
+    worldPosition: {x: 35.420002, y: -0.96525437, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 7}
+    worldPosition: {x: 36.285, y: -1.1555934, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 8}
+    worldPosition: {x: 35.420002, y: -1.7307327, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 9}
+    worldPosition: {x: 36.285, y: -1.3620989, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 10}
+    worldPosition: {x: 35.420002, y: -1.1506809, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 11}
+    worldPosition: {x: 36.285, y: -1.1351541, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 12}
+    worldPosition: {x: 35.420002, y: -0.8381943, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 13}
+    worldPosition: {x: 36.285, y: -0.46988896, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 14}
+    worldPosition: {x: 35.420002, y: -0.074884474, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 15}
+    worldPosition: {x: 36.285, y: 0.16054523, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 16}
+    worldPosition: {x: 35.420002, y: 0.23426948, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 17}
+    worldPosition: {x: 36.285, y: 0.5856036, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 18}
+    worldPosition: {x: 35.420002, y: 0.5484678, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 19}
+    worldPosition: {x: 36.285, y: 0.7468191, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 20}
+    worldPosition: {x: 35.420002, y: 0.40024048, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 21}
+    worldPosition: {x: 36.285, y: 0.28903633, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 22}
+    worldPosition: {x: 35.420002, y: 0.04248987, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 23}
+    worldPosition: {x: 36.285, y: -0.3424412, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 15, y: 24}
+    worldPosition: {x: 35.420002, y: -0.429613, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 0}
+    worldPosition: {x: 37.15, y: -0.083330154, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 1}
+    worldPosition: {x: 38.015, y: -0.083330154, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 2}
+    worldPosition: {x: 37.15, y: -0.083330154, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 3}
+    worldPosition: {x: 38.015, y: -0.083330154, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 4}
+    worldPosition: {x: 37.15, y: -0.083330154, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 5}
+    worldPosition: {x: 38.015, y: -0.083330154, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 6}
+    worldPosition: {x: 37.15, y: -0.2536874, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 7}
+    worldPosition: {x: 38.015, y: -0.45207906, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 8}
+    worldPosition: {x: 37.15, y: -1.1922406, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 9}
+    worldPosition: {x: 38.015, y: -1.1747972, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 10}
+    worldPosition: {x: 37.15, y: -1.3084999, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 11}
+    worldPosition: {x: 38.015, y: -1.275102, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 12}
+    worldPosition: {x: 37.15, y: -1.0266352, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 13}
+    worldPosition: {x: 38.015, y: -1.0259845, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 14}
+    worldPosition: {x: 37.15, y: -0.2395746, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 15}
+    worldPosition: {x: 38.015, y: 0.026386308, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 16}
+    worldPosition: {x: 37.15, y: 0.4515558, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 17}
+    worldPosition: {x: 38.015, y: 0.8977154, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 18}
+    worldPosition: {x: 37.15, y: 1.0099642, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 19}
+    worldPosition: {x: 38.015, y: 1.1417061, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 20}
+    worldPosition: {x: 37.15, y: 0.7404383, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 21}
+    worldPosition: {x: 38.015, y: 0.035706818, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 22}
+    worldPosition: {x: 37.15, y: -0.18415616, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 23}
+    worldPosition: {x: 38.015, y: -0.99128354, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 16, y: 24}
+    worldPosition: {x: 37.15, y: -0.9991696, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 0}
+    worldPosition: {x: 38.88, y: -0.083330154, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 1}
+    worldPosition: {x: 39.745, y: -0.083330154, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 2}
+    worldPosition: {x: 38.88, y: -0.083330154, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 3}
+    worldPosition: {x: 39.745, y: -0.083330154, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 4}
+    worldPosition: {x: 38.88, y: -0.083330154, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 5}
+    worldPosition: {x: 39.745, y: -0.083330154, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 6}
+    worldPosition: {x: 38.88, y: -0.083330154, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 7}
+    worldPosition: {x: 39.745, y: -0.083330154, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 8}
+    worldPosition: {x: 38.88, y: -0.7264861, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 9}
+    worldPosition: {x: 39.745, y: -0.89817894, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 10}
+    worldPosition: {x: 38.88, y: -1.3172913, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 11}
+    worldPosition: {x: 39.745, y: -1.4392076, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 12}
+    worldPosition: {x: 38.88, y: -1.3291546, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 13}
+    worldPosition: {x: 39.745, y: -1.4559612, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 14}
+    worldPosition: {x: 38.88, y: -1.0298007, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 15}
+    worldPosition: {x: 39.745, y: -1.0457748, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 16}
+    worldPosition: {x: 38.88, y: 0.33474845, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 17}
+    worldPosition: {x: 39.745, y: 0.40585226, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 18}
+    worldPosition: {x: 38.88, y: 1.1938224, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 19}
+    worldPosition: {x: 39.745, y: 0.45090693, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 20}
+    worldPosition: {x: 38.88, y: 0.4909157, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 21}
+    worldPosition: {x: 39.745, y: -1.029827, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 22}
+    worldPosition: {x: 38.88, y: -1.0250378, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 23}
+    worldPosition: {x: 39.745, y: -1.6924393, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 17, y: 24}
+    worldPosition: {x: 38.88, y: -1.6269403, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 0}
+    worldPosition: {x: 40.61, y: -0.083330154, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 1}
+    worldPosition: {x: 41.475002, y: -0.012921377, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 2}
+    worldPosition: {x: 40.61, y: -0.083330154, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 3}
+    worldPosition: {x: 41.475002, y: -0.083330154, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 4}
+    worldPosition: {x: 40.61, y: -0.083330154, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 5}
+    worldPosition: {x: 41.475002, y: -0.07998034, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 6}
+    worldPosition: {x: 40.61, y: -0.083330154, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 7}
+    worldPosition: {x: 41.475002, y: -0.083330154, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 8}
+    worldPosition: {x: 40.61, y: -0.12540488, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 9}
+    worldPosition: {x: 41.475002, y: -0.51875067, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 10}
+    worldPosition: {x: 40.61, y: -1.0331622, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 11}
+    worldPosition: {x: 41.475002, y: -1.0952444, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 12}
+    worldPosition: {x: 40.61, y: -1.3821815, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 13}
+    worldPosition: {x: 41.475002, y: -1.5795096, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 14}
+    worldPosition: {x: 40.61, y: -1.5488336, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 15}
+    worldPosition: {x: 41.475002, y: -1.654469, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 16}
+    worldPosition: {x: 40.61, y: -1.1992285, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 17}
+    worldPosition: {x: 41.475002, y: -1.3958957, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 18}
+    worldPosition: {x: 40.61, y: -0.79337716, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 19}
+    worldPosition: {x: 41.475002, y: -1.4889996, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 20}
+    worldPosition: {x: 40.61, y: -1.121931, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 21}
+    worldPosition: {x: 41.475002, y: -1.9925065, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 22}
+    worldPosition: {x: 40.61, y: -1.7395189, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 23}
+    worldPosition: {x: 41.475002, y: -1.8101132, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 18, y: 24}
+    worldPosition: {x: 40.61, y: -1.7739097, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 0}
+    worldPosition: {x: 42.34, y: -0.022480601, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 1}
+    worldPosition: {x: 43.205, y: 0.29384854, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 2}
+    worldPosition: {x: 42.34, y: 0.24031614, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 3}
+    worldPosition: {x: 43.205, y: 0.28361037, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 4}
+    worldPosition: {x: 42.34, y: -0.06937042, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 5}
+    worldPosition: {x: 43.205, y: 0.063791335, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 6}
+    worldPosition: {x: 42.34, y: -0.0062065125, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 7}
+    worldPosition: {x: 43.205, y: 0.07497406, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 8}
+    worldPosition: {x: 42.34, y: -0.11550279, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 9}
+    worldPosition: {x: 43.205, y: -0.53455186, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 10}
+    worldPosition: {x: 42.34, y: -0.39805833, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 11}
+    worldPosition: {x: 43.205, y: -0.20767875, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 12}
+    worldPosition: {x: 42.34, y: -1.0290966, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 13}
+    worldPosition: {x: 43.205, y: -0.9034111, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 14}
+    worldPosition: {x: 42.34, y: -1.4535484, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 15}
+    worldPosition: {x: 43.205, y: -1.4221929, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 16}
+    worldPosition: {x: 42.34, y: -1.7442479, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 17}
+    worldPosition: {x: 43.205, y: -1.6183218, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 18}
+    worldPosition: {x: 42.34, y: -1.6866684, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 19}
+    worldPosition: {x: 43.205, y: -1.8546234, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 20}
+    worldPosition: {x: 42.34, y: -2.196437, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 21}
+    worldPosition: {x: 43.205, y: -1.7862183, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 22}
+    worldPosition: {x: 42.34, y: -1.8480289, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 23}
+    worldPosition: {x: 43.205, y: -1.0200315, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 19, y: 24}
+    worldPosition: {x: 42.34, y: -1.0399933, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 0}
+    worldPosition: {x: 44.07, y: 0.034750298, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 1}
+    worldPosition: {x: 44.935, y: 0.30164114, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 2}
+    worldPosition: {x: 44.07, y: 0.6229515, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 3}
+    worldPosition: {x: 44.935, y: 0.7001528, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 4}
+    worldPosition: {x: 44.07, y: 0.2915535, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 5}
+    worldPosition: {x: 44.935, y: 0.4233653, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 6}
+    worldPosition: {x: 44.07, y: 0.2601078, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 7}
+    worldPosition: {x: 44.935, y: 0.28128102, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 8}
+    worldPosition: {x: 44.07, y: -0.10121013, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 9}
+    worldPosition: {x: 44.935, y: -0.24843179, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 10}
+    worldPosition: {x: 44.07, y: -0.11490962, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 11}
+    worldPosition: {x: 44.935, y: -0.14023206, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 12}
+    worldPosition: {x: 44.07, y: -0.19177115, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 13}
+    worldPosition: {x: 44.935, y: -0.19097805, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 14}
+    worldPosition: {x: 44.07, y: -0.75634664, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 15}
+    worldPosition: {x: 44.935, y: -0.72039515, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 16}
+    worldPosition: {x: 44.07, y: -1.2706577, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 17}
+    worldPosition: {x: 44.935, y: -1.2867309, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 18}
+    worldPosition: {x: 44.07, y: -1.3767965, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 19}
+    worldPosition: {x: 44.935, y: -0.92010593, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 20}
+    worldPosition: {x: 44.07, y: -1.284257, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 21}
+    worldPosition: {x: 44.935, y: -0.53073937, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 22}
+    worldPosition: {x: 44.07, y: -0.9521544, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 23}
+    worldPosition: {x: 44.935, y: -0.19250976, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 20, y: 24}
+    worldPosition: {x: 44.07, y: -0.3303716, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 0}
+    worldPosition: {x: 45.800003, y: -0.0062065125, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 1}
+    worldPosition: {x: 46.665005, y: 0.07497406, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 2}
+    worldPosition: {x: 45.800003, y: 0.409231, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 3}
+    worldPosition: {x: 46.665005, y: 0.65068984, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 4}
+    worldPosition: {x: 45.800003, y: 0.6574471, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 5}
+    worldPosition: {x: 46.665005, y: 0.5845028, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 6}
+    worldPosition: {x: 45.800003, y: 0.7007793, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 7}
+    worldPosition: {x: 46.665005, y: 0.9857704, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 8}
+    worldPosition: {x: 45.800003, y: 0.36434504, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 9}
+    worldPosition: {x: 46.665005, y: -0.4145119, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 10}
+    worldPosition: {x: 45.800003, y: 0.06524851, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 11}
+    worldPosition: {x: 46.665005, y: -0.16852236, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 12}
+    worldPosition: {x: 45.800003, y: -0.16856956, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 13}
+    worldPosition: {x: 46.665005, y: -0.26730847, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 14}
+    worldPosition: {x: 45.800003, y: -0.28025103, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 15}
+    worldPosition: {x: 46.665005, y: -1.37006, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 16}
+    worldPosition: {x: 45.800003, y: -1.3885349, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 17}
+    worldPosition: {x: 46.665005, y: -0.9738908, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 18}
+    worldPosition: {x: 45.800003, y: -0.79720134, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 19}
+    worldPosition: {x: 46.665005, y: -0.10768318, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 20}
+    worldPosition: {x: 45.800003, y: -0.16483283, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 21}
+    worldPosition: {x: 46.665005, y: -0.083330154, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 22}
+    worldPosition: {x: 45.800003, y: -0.10817358, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 23}
+    worldPosition: {x: 46.665005, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 21, y: 24}
+    worldPosition: {x: 45.800003, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 0}
+    worldPosition: {x: 47.530003, y: -0.071673945, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 1}
+    worldPosition: {x: 48.395004, y: 0.20522635, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 2}
+    worldPosition: {x: 47.530003, y: 0.3517693, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 3}
+    worldPosition: {x: 48.395004, y: 0.46870613, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 4}
+    worldPosition: {x: 47.530003, y: 0.6356885, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 5}
+    worldPosition: {x: 48.395004, y: 0.81881744, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 6}
+    worldPosition: {x: 47.530003, y: 0.8259543, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 7}
+    worldPosition: {x: 48.395004, y: 1.3034846, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 8}
+    worldPosition: {x: 47.530003, y: 1.014264, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 9}
+    worldPosition: {x: 48.395004, y: -0.29729736, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 10}
+    worldPosition: {x: 47.530003, y: -0.0831476, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 11}
+    worldPosition: {x: 48.395004, y: -0.24563405, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 12}
+    worldPosition: {x: 47.530003, y: -0.29010585, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 13}
+    worldPosition: {x: 48.395004, y: -0.6735247, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 14}
+    worldPosition: {x: 47.530003, y: -0.99471694, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 15}
+    worldPosition: {x: 48.395004, y: -1.0777771, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 16}
+    worldPosition: {x: 47.530003, y: -0.95052373, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 17}
+    worldPosition: {x: 48.395004, y: -0.23689976, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 18}
+    worldPosition: {x: 47.530003, y: -0.11901359, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 19}
+    worldPosition: {x: 48.395004, y: 0.7737342, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 20}
+    worldPosition: {x: 47.530003, y: -0.083330154, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 21}
+    worldPosition: {x: 48.395004, y: 0.005288191, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 22}
+    worldPosition: {x: 47.530003, y: -0.083330154, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 23}
+    worldPosition: {x: 48.395004, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 22, y: 24}
+    worldPosition: {x: 47.530003, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 0}
+    worldPosition: {x: 49.260002, y: 0.065714896, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 1}
+    worldPosition: {x: 50.125004, y: 0.29521802, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 2}
+    worldPosition: {x: 49.260002, y: 0.3707637, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 3}
+    worldPosition: {x: 50.125004, y: 0.5878815, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 4}
+    worldPosition: {x: 49.260002, y: 0.7181436, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 5}
+    worldPosition: {x: 50.125004, y: 1.0337145, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 6}
+    worldPosition: {x: 49.260002, y: 1.0535647, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 7}
+    worldPosition: {x: 50.125004, y: 0.99011314, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 8}
+    worldPosition: {x: 49.260002, y: 0.8050286, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 9}
+    worldPosition: {x: 50.125004, y: -0.115802765, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 10}
+    worldPosition: {x: 49.260002, y: -0.4643304, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 11}
+    worldPosition: {x: 50.125004, y: -0.23757553, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 12}
+    worldPosition: {x: 49.260002, y: -0.71624815, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 13}
+    worldPosition: {x: 50.125004, y: -1.1474652, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 14}
+    worldPosition: {x: 49.260002, y: -1.1674333, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 15}
+    worldPosition: {x: 50.125004, y: -0.3255201, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 16}
+    worldPosition: {x: 49.260002, y: -0.4016446, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 17}
+    worldPosition: {x: 50.125004, y: -0.09279655, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 18}
+    worldPosition: {x: 49.260002, y: 0.017807, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 19}
+    worldPosition: {x: 50.125004, y: -0.07312422, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 20}
+    worldPosition: {x: 49.260002, y: 0.041665126, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 21}
+    worldPosition: {x: 50.125004, y: 0.09789794, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 22}
+    worldPosition: {x: 49.260002, y: -0.083330154, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 23}
+    worldPosition: {x: 50.125004, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 23, y: 24}
+    worldPosition: {x: 49.260002, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 0}
+    worldPosition: {x: 50.99, y: 0.10949748, z: -3.39}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 1}
+    worldPosition: {x: 51.855003, y: 0.31233537, z: -1.8900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 2}
+    worldPosition: {x: 50.99, y: 0.5226638, z: -0.3900001}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 3}
+    worldPosition: {x: 51.855003, y: 0.72700787, z: 1.1099999}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 4}
+    worldPosition: {x: 50.99, y: 0.74653393, z: 2.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 5}
+    worldPosition: {x: 51.855003, y: 0.36549348, z: 4.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 6}
+    worldPosition: {x: 50.99, y: 0.7585609, z: 5.6099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 7}
+    worldPosition: {x: 51.855003, y: 0.9546614, z: 7.1099997}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 8}
+    worldPosition: {x: 50.99, y: 0.69171906, z: 8.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 9}
+    worldPosition: {x: 51.855003, y: 0.48723614, z: 10.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 10}
+    worldPosition: {x: 50.99, y: 0.32166454, z: 11.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 11}
+    worldPosition: {x: 51.855003, y: -0.104508504, z: 13.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 12}
+    worldPosition: {x: 50.99, y: -0.69667023, z: 14.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 13}
+    worldPosition: {x: 51.855003, y: -1.1326647, z: 16.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 14}
+    worldPosition: {x: 50.99, y: -0.43274382, z: 17.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 15}
+    worldPosition: {x: 51.855003, y: 0.07526904, z: 19.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 16}
+    worldPosition: {x: 50.99, y: 0.010914062, z: 20.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 17}
+    worldPosition: {x: 51.855003, y: 0.36890084, z: 22.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 18}
+    worldPosition: {x: 50.99, y: -0.05286934, z: 23.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 19}
+    worldPosition: {x: 51.855003, y: -0.083330154, z: 25.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 20}
+    worldPosition: {x: 50.99, y: -0.083330154, z: 26.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 21}
+    worldPosition: {x: 51.855003, y: -0.083330154, z: 28.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 22}
+    worldPosition: {x: 50.99, y: 0.24123457, z: 29.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 23}
+    worldPosition: {x: 51.855003, y: -0.083330154, z: 31.11}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
+  - gridPosition: {x: 24, y: 24}
+    worldPosition: {x: 50.99, y: -0.083330154, z: 32.61}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    isObstructed: 0
