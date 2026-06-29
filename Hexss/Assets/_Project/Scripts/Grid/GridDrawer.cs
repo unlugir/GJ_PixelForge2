@@ -1,39 +1,77 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using VContainer;
 
 public class GridDrawer : MonoBehaviour
 {
-    [SerializeField] private Mesh mesh;
 
+    [SerializeField] private GameObject movementPrefab;
+    [SerializeField] private GameObject attackPrefab;
+    [SerializeField] private GameObject skillPrefab;
+
+    
     [Inject] private WorldGrid _worldGrid;
+    
+    private List<GameObject> _movementCells = new();
+    private List<GameObject> _attackCells = new();
+    private List<GameObject> _skillCells = new();
 
-    private GridPattern _patternToDraw;
-    private Vector2Int _patternOrigin;
 
-    public void DrawPattern(GridPattern pattern, Vector2Int origin)
+    public void DrawMovement(GridPattern pattern, Vector2Int origin)
     {
-        _patternToDraw = pattern;
-        _patternOrigin = origin;
+        Draw(_movementCells, movementPrefab, pattern, origin);
+    }
+    public void DrawAttack(GridPattern pattern, Vector2Int origin)
+    {
+        Draw(_attackCells, attackPrefab, pattern, origin);
+    }
+
+    public void DrawSkill(GridPattern pattern, Vector2Int origin)
+    {
+        Draw(_skillCells, skillPrefab, pattern, origin);
     }
     
-    public void Clear()
+    public void ClearMovement()
     {
-        _patternToDraw = null;
-        _patternOrigin = Vector2Int.zero;
+        _movementCells.ForEach(c => c.gameObject.SetActive(false));
     }
 
-    private void OnDrawGizmos()
+    public void ClearAttack()
     {
-        if (_patternToDraw == null)
+        _attackCells.ForEach(c => c.gameObject.SetActive(false));
+    }
+    public void ClearSkill()
+    {
+        _skillCells.ForEach(c => c.gameObject.SetActive(false));
+    }
+    
+    private void Draw(List<GameObject> cells, GameObject prefab, GridPattern pattern, Vector2Int origin)
+    {
+        if (pattern == null)
             return;
-
-        foreach (Vector2Int offsetCell in _patternToDraw.GetValidCellsForOrigin(_patternOrigin))
+        cells.ForEach(c => c.gameObject.SetActive(false));
+        
+        var cellsToDraw = pattern.GetValidCellsForOrigin(origin);
+        for (int i = 0; i < cellsToDraw.Count; i++)
         {
-            if (_worldGrid.TryGetCell(offsetCell, out var cell))
+            if (!_worldGrid.TryGetCell(cellsToDraw[i], out var cell))
+                continue;
+            GameObject cellObject = null;
+            if (cells.Count <= i)
             {
-                Gizmos.color = Color.blue;
-                Gizmos.DrawMesh(mesh, cell.worldPosition + Vector3.up * 0.25f);
+                cellObject = Instantiate(prefab, cell.worldPosition, Quaternion.identity);
+                cellObject.transform.SetParent(transform);
+                cells.Add(cellObject);
             }
+            else
+            {
+                cellObject = cells[i];
+            }
+            cellObject.gameObject.SetActive(true);
+            cellObject.transform.position = cell.worldPosition;
+           
         }
     }
 

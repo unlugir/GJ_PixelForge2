@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea063a442a50764fbeb7e6cc2b7e546, type: 3}
+  m_Name: Basic Actor
+  m_EditorClassIdentifier: Assembly-CSharp::ActorDefinition
+  movementPattern: {fileID: 11400000, guid: b5d6da22295809d449758f59f67e926c, type: 2}
+  attackPattern: {fileID: 11400000, guid: 89badd6e9faf534489d66327d73fac7b, type: 2}
+  skillPattern: {fileID: 11400000, guid: bd0a3bdc8e0d8d047be44fbf643252dd, type: 2}
+  skillDefinition: {fileID: 11400000, guid: f15d6bbef6c17d841b8d98e962880200, type: 2}
+  attackAllies: 1
+  damage: 15
+  health: 100

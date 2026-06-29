@@ -1,4 +1,5 @@
 using System;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -6,6 +7,7 @@ using VContainer;
 
 public class PlayerController : MonoBehaviour
 {
+    public int team;
     public UnityEvent<GridActor, WorldCell> onActorDragged = new UnityEvent<GridActor, WorldCell>();
     public UnityEvent<GridActor, WorldCell> onActorDropped = new UnityEvent<GridActor, WorldCell>();
     public UnityEvent<GridActor> onActorHovered = new UnityEvent<GridActor>();
@@ -15,9 +17,11 @@ public class PlayerController : MonoBehaviour
     
     [SerializeField] private LayerMask layerMask;
     [SerializeField] private InputActionReference click;
+    [SerializeField] private InputActionReference move;
+    [SerializeField] private float cameraMovementSpeed;
     
     [Inject] private WorldGrid _worldGrid;
-        
+    [Inject] private CinemachineCamera _camera;    
     private WorldCell _hoveredCell;
     private WorldCell _draggedToCell;
     private GridActor _hoveredActor;
@@ -40,7 +44,8 @@ public class PlayerController : MonoBehaviour
 
     private void OnClickEnded(InputAction.CallbackContext obj)
     {
-        if (_draggedActor != null && _hoveredCell != null)
+        bool isMyActor = _draggedActor?.team == team;
+        if (_draggedActor != null && _hoveredCell != null && isMyActor)
             onActorDropped.Invoke(_draggedActor, _hoveredCell);
         
         _draggedActor?.ToggleCollider(true);
@@ -54,6 +59,9 @@ public class PlayerController : MonoBehaviour
     }
     private void Update()
     {
+        var movement = move.action.ReadValue<Vector2>();
+        _camera.transform.position += new Vector3(movement.x, 0, movement.y) * cameraMovementSpeed * Time.deltaTime;
+        
         Vector2 screenPosition = Mouse.current.position.ReadValue();
         
         Ray ray = Camera.main.ScreenPointToRay(screenPosition);
@@ -66,13 +74,14 @@ public class PlayerController : MonoBehaviour
                 if (!_worldGrid.TryGetCell(position, out var cell)) return;
                 
                 bool newActorHovered = actor != _hoveredActor;
+                bool isMyActor = actor?.team == team;
                 bool newCellHovered = cell != _hoveredCell;
                 _hoveredCell = cell;
                 _hoveredActor = actor;
                 
                 if (newCellHovered)
                     onCellHovered.Invoke(_hoveredCell);
-                if (newActorHovered)
+                if (newActorHovered && isMyActor)
                     onActorHovered.Invoke(_hoveredActor);
             }
             else
@@ -83,15 +92,15 @@ public class PlayerController : MonoBehaviour
                 bool newActorHovered = actorInCell != _hoveredActor && actorInCell != null;
                 bool actorUnhovered = _hoveredActor != null && actorInCell == null;
                 bool newCellHovered = cell != _hoveredCell;
-                
+                bool isMyActor = actor?.team == team;
                 _hoveredActor = actorInCell;
                 _hoveredCell = cell;
                
                 if (newCellHovered)
                     onCellHovered.Invoke(_hoveredCell);
-                if (newActorHovered)
+                if (newActorHovered && isMyActor)
                     onActorHovered.Invoke(_hoveredActor);
-                if (actorUnhovered)
+                if (actorUnhovered && isMyActor)
                     onActorUnhovered.Invoke(_hoveredActor);
             }
         }
@@ -103,7 +112,8 @@ public class PlayerController : MonoBehaviour
         
         if (_isDragging && _draggedActor != null && _hoveredCell != null)
         {
-            if (_draggedToCell != _hoveredCell)
+            bool isMyActor = _draggedActor?.team == team;
+            if (_draggedToCell != _hoveredCell && isMyActor)
             {
                 _draggedToCell = _hoveredCell;
                 onActorDragged.Invoke(_draggedActor, _hoveredCell);    
@@ -115,5 +125,6 @@ public class PlayerController : MonoBehaviour
     {
         click.action.started -= OnClickStarted;
         click.action.canceled -= OnClickEnded;
+        click.action.performed -= OnClickPerformed;
     }
 }

@@ -23,6 +23,8 @@ public class WorldCell
 }
 public class WorldGrid : MonoBehaviour
 {
+    public Vector2Int gridSize => _gridSize;
+    
     [SerializeField] private BakedGrid bakedGrid;
     private Dictionary<Vector2Int, GridActor> _gridActors = new Dictionary<Vector2Int, GridActor>();
     private Dictionary<Vector2Int, WorldCell> _cells = new Dictionary<Vector2Int, WorldCell>();
@@ -46,14 +48,15 @@ public class WorldGrid : MonoBehaviour
         _gridActors[closestCell.gridPosition] = actor;
     }
 
-    public void SetActorPosition(GridActor actor, Vector2Int position)
+    public bool TrySetActorPosition(GridActor actor, Vector2Int position)
     {
-        if (_gridActors.ContainsKey(position)) return;
+        if (_gridActors.ContainsKey(position)) return false;
         
         var oldPosition = GetActorPosition(actor);
         _gridActors[position] = actor;
         _gridActors.Remove(oldPosition);
         actor.transform.position = _cells[position].worldPosition;
+        return true;
     }
     
     public Vector2Int GetActorPosition(GridActor actor)

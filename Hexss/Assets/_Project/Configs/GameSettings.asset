@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf3428745c6e723468ab169704dbab9c, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: Assembly-CSharp::GameSettings
+  roundTime: 30
+  maxRounds: 10
+  deck:
+  - actor: {fileID: 2215374460425763754, guid: 60f03d7011f68ec42805d0eedd177b97, type: 3}
+    spawnPoint: {x: 13, y: 1}
+  - actor: {fileID: 2215374460425763754, guid: 60f03d7011f68ec42805d0eedd177b97, type: 3}
+    spawnPoint: {x: 13, y: 2}
+  - actor: {fileID: 2215374460425763754, guid: 60f03d7011f68ec42805d0eedd177b97, type: 3}
+    spawnPoint: {x: 13, y: 3}

@@ -6,7 +6,7 @@ using UnityEngine;
 [CustomEditor(typeof(GridPattern))]
 public class GridPatternEditor : Editor
 {
-    private const int PreviewRadius = 5;
+    private const int PreviewRadius = 7;
 
     private const float HexSize = 22f;
     private const float Padding = 40f;

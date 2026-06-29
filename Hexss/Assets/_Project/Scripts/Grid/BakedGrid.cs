@@ -17,10 +17,10 @@ public class BakedGrid : ScriptableObject
 {
   
     [SerializeField] private List<BakedCell> cells = new();
+    [SerializeField] private Vector2Int gridSize;
     private Dictionary<Vector2Int, BakedCell> _lookup;
-    private Vector2Int _gridSize;
     public IReadOnlyList<BakedCell> Cells => cells;
-    public Vector2Int GridSize => _gridSize;
+    public Vector2Int GridSize => gridSize;
     
     public BakedCell Get(Vector2Int position)
     {
@@ -31,7 +31,7 @@ public class BakedGrid : ScriptableObject
     public void SetCells(List<BakedCell> newCells, Vector2Int gridSize)
     {
         cells = newCells;
-        _gridSize = gridSize;
+        this.gridSize = gridSize;
         _lookup = null;
     }
 

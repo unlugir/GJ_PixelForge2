@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -31,6 +30,7 @@ public class GridBaker : MonoBehaviour
         _grid = GetComponent<Grid>();
     }
 
+    #if UNITY_EDITOR
     [ContextMenu("Bake")]
     private void Bake()
     {
@@ -89,12 +89,12 @@ public class GridBaker : MonoBehaviour
         bakedGrid.SetCells(cells.ToList(), gridSize);
         Debug.Log($"Baked {bakedGrid.Cells.Count} cells");
             
-        Undo.RecordObject(bakedGrid, "Bake Grid");
-        EditorUtility.SetDirty(bakedGrid);
-        AssetDatabase.SaveAssets();
+        UnityEditor.Undo.RecordObject(bakedGrid, "Bake Grid");
+        UnityEditor.EditorUtility.SetDirty(bakedGrid);
+        UnityEditor.AssetDatabase.SaveAssets();
     }
     
-    
+    #endif
     
     private void OnDrawGizmos()
     {
