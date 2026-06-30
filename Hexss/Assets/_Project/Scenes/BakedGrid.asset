@@ -14,2003 +14,2003 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BakedGrid
   cells:
   - gridPosition: {x: 0, y: 0}
-    worldPosition: {x: 9.47, y: -0.083330154, z: -3.39}
+    worldPosition: {x: 0, y: -0.083330154, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 1}
-    worldPosition: {x: 10.335, y: -0.063681126, z: -1.8900001}
+    worldPosition: {x: 0.865, y: -0.083330154, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 2}
-    worldPosition: {x: 9.47, y: -0.083330154, z: -0.3900001}
+    worldPosition: {x: 0, y: -0.083330154, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 3}
-    worldPosition: {x: 10.335, y: -0.030561447, z: 1.1099999}
+    worldPosition: {x: 0.865, y: -0.083330154, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 4}
-    worldPosition: {x: 9.47, y: -0.083330154, z: 2.61}
+    worldPosition: {x: 0, y: -0.083330154, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 5}
-    worldPosition: {x: 10.335, y: -0.06803794, z: 4.1099997}
+    worldPosition: {x: 0.865, y: -0.083330154, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 6}
-    worldPosition: {x: 9.47, y: -0.083330154, z: 5.6099997}
+    worldPosition: {x: 0, y: -0.083330154, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 7}
-    worldPosition: {x: 10.335, y: -0.083330154, z: 7.1099997}
+    worldPosition: {x: 0.865, y: -0.083330154, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 8}
-    worldPosition: {x: 9.47, y: -0.083330154, z: 8.61}
+    worldPosition: {x: 0, y: -0.083330154, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 9}
-    worldPosition: {x: 10.335, y: -0.17697676, z: 10.11}
+    worldPosition: {x: 0.865, y: -0.083330154, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 10}
-    worldPosition: {x: 9.47, y: -0.083330154, z: 11.61}
+    worldPosition: {x: 0, y: -0.026210928, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 11}
-    worldPosition: {x: 10.335, y: -0.13321702, z: 13.11}
+    worldPosition: {x: 0.865, y: 0.48231924, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 12}
-    worldPosition: {x: 9.47, y: -0.083330154, z: 14.61}
+    worldPosition: {x: 0, y: 1.9845829, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 13}
-    worldPosition: {x: 10.335, y: -0.083330154, z: 16.11}
+    worldPosition: {x: 0.865, y: 1.7538754, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 14}
-    worldPosition: {x: 9.47, y: -0.083330154, z: 17.61}
+    worldPosition: {x: 0, y: 2.3202944, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 15}
-    worldPosition: {x: 10.335, y: -0.05491638, z: 19.11}
+    worldPosition: {x: 0.865, y: 2.2086134, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 16}
-    worldPosition: {x: 9.47, y: 0.005970001, z: 20.61}
+    worldPosition: {x: 0, y: 3.5143955, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 17}
-    worldPosition: {x: 10.335, y: 0.00031669927, z: 22.11}
+    worldPosition: {x: 0.865, y: 3.0709114, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 18}
-    worldPosition: {x: 9.47, y: 0.37611115, z: 23.61}
+    worldPosition: {x: 0, y: 3.7386909, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 19}
-    worldPosition: {x: 10.335, y: 0.40281704, z: 25.11}
+    worldPosition: {x: 0.865, y: 2.6782687, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 20}
-    worldPosition: {x: 9.47, y: 1.6497419, z: 26.61}
+    worldPosition: {x: 0, y: 3.2409546, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 21}
-    worldPosition: {x: 10.335, y: 0.17374659, z: 28.11}
+    worldPosition: {x: 0.865, y: 2.3761394, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 22}
-    worldPosition: {x: 9.47, y: 0.20885304, z: 29.61}
+    worldPosition: {x: 0, y: 2.9531808, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 23}
-    worldPosition: {x: 10.335, y: 0.028877934, z: 31.11}
+    worldPosition: {x: 0.865, y: 2.2300844, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 0, y: 24}
-    worldPosition: {x: 9.47, y: -0.011001176, z: 32.61}
+    worldPosition: {x: 0, y: 2.6948884, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 0}
-    worldPosition: {x: 11.200001, y: -0.04564676, z: -3.39}
+    worldPosition: {x: 1.73, y: -0.083330154, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 1}
-    worldPosition: {x: 12.065001, y: 0.27612042, z: -1.8900001}
+    worldPosition: {x: 2.595, y: -0.083330154, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 2}
-    worldPosition: {x: 11.200001, y: 0.17865849, z: -0.3900001}
+    worldPosition: {x: 1.73, y: -0.083330154, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 3}
-    worldPosition: {x: 12.065001, y: 0.89943975, z: 1.1099999}
+    worldPosition: {x: 2.595, y: -0.083330154, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 4}
-    worldPosition: {x: 11.200001, y: 0.24800013, z: 2.61}
+    worldPosition: {x: 1.73, y: -0.083330154, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 5}
-    worldPosition: {x: 12.065001, y: 0.64024115, z: 4.1099997}
+    worldPosition: {x: 2.595, y: -0.083330154, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 6}
-    worldPosition: {x: 11.200001, y: 0.026258953, z: 5.6099997}
+    worldPosition: {x: 1.73, y: -0.083330154, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 7}
-    worldPosition: {x: 12.065001, y: 0.24604118, z: 7.1099997}
+    worldPosition: {x: 2.595, y: -0.083330154, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 8}
-    worldPosition: {x: 11.200001, y: -0.07000683, z: 8.61}
+    worldPosition: {x: 1.73, y: -0.083330154, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 9}
-    worldPosition: {x: 12.065001, y: -0.17263031, z: 10.11}
+    worldPosition: {x: 2.595, y: -0.083330154, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 10}
-    worldPosition: {x: 11.200001, y: -0.17668915, z: 11.61}
+    worldPosition: {x: 1.73, y: -0.083330154, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 11}
-    worldPosition: {x: 12.065001, y: -0.17668915, z: 13.11}
+    worldPosition: {x: 2.595, y: -0.035735544, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 12}
-    worldPosition: {x: 11.200001, y: -0.17668915, z: 14.61}
+    worldPosition: {x: 1.73, y: 1.1189073, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 13}
-    worldPosition: {x: 12.065001, y: -0.17668915, z: 16.11}
+    worldPosition: {x: 2.595, y: 1.1850957, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 14}
-    worldPosition: {x: 11.200001, y: -0.083330154, z: 17.61}
+    worldPosition: {x: 1.73, y: 1.7977196, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 15}
-    worldPosition: {x: 12.065001, y: -0.15231326, z: 19.11}
+    worldPosition: {x: 2.595, y: 1.7793087, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 16}
-    worldPosition: {x: 11.200001, y: -0.04345764, z: 20.61}
+    worldPosition: {x: 1.73, y: 2.2633374, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 17}
-    worldPosition: {x: 12.065001, y: -0.20962545, z: 22.11}
+    worldPosition: {x: 2.595, y: 2.1656117, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 18}
-    worldPosition: {x: 11.200001, y: -0.24502249, z: 23.61}
+    worldPosition: {x: 1.73, y: 2.4567332, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 19}
-    worldPosition: {x: 12.065001, y: -0.31620067, z: 25.11}
+    worldPosition: {x: 2.595, y: 1.9792882, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 20}
-    worldPosition: {x: 11.200001, y: -0.03231772, z: 26.61}
+    worldPosition: {x: 1.73, y: 2.0082002, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 21}
-    worldPosition: {x: 12.065001, y: -0.4009333, z: 28.11}
+    worldPosition: {x: 2.595, y: 1.3783659, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 22}
-    worldPosition: {x: 11.200001, y: -0.03622388, z: 29.61}
+    worldPosition: {x: 1.73, y: 1.4769295, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 23}
-    worldPosition: {x: 12.065001, y: -0.10749426, z: 31.11}
+    worldPosition: {x: 2.595, y: 0.8867455, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 1, y: 24}
-    worldPosition: {x: 11.200001, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 1.73, y: 1.1861569, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 0}
-    worldPosition: {x: 12.93, y: 0.21321756, z: -3.39}
+    worldPosition: {x: 3.46, y: -0.083330154, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 1}
-    worldPosition: {x: 13.795, y: 1.2849036, z: -1.8900001}
+    worldPosition: {x: 4.325, y: -0.083330154, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 2}
-    worldPosition: {x: 12.93, y: 1.3488224, z: -0.3900001}
+    worldPosition: {x: 3.46, y: -0.083330154, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 3}
-    worldPosition: {x: 13.795, y: 2.1532269, z: 1.1099999}
+    worldPosition: {x: 4.325, y: -0.083330154, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 4}
-    worldPosition: {x: 12.93, y: 1.6991605, z: 2.61}
+    worldPosition: {x: 3.46, y: -0.083330154, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 5}
-    worldPosition: {x: 13.795, y: 2.0869744, z: 4.1099997}
+    worldPosition: {x: 4.325, y: -0.083330154, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 6}
-    worldPosition: {x: 12.93, y: 1.262654, z: 5.6099997}
+    worldPosition: {x: 3.46, y: -0.083330154, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 7}
-    worldPosition: {x: 13.795, y: 1.890205, z: 7.1099997}
+    worldPosition: {x: 4.325, y: -0.083330154, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 8}
-    worldPosition: {x: 12.93, y: 0.55783135, z: 8.61}
+    worldPosition: {x: 3.46, y: -0.083330154, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 9}
-    worldPosition: {x: 13.795, y: -0.07780276, z: 10.11}
+    worldPosition: {x: 4.325, y: -0.083330154, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 10}
-    worldPosition: {x: 12.93, y: -0.16856956, z: 11.61}
+    worldPosition: {x: 3.46, y: -0.083330154, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 11}
-    worldPosition: {x: 13.795, y: -0.1698412, z: 13.11}
+    worldPosition: {x: 4.325, y: -0.083330154, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 12}
-    worldPosition: {x: 12.93, y: -0.17668915, z: 14.61}
+    worldPosition: {x: 3.46, y: 0.090511374, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 13}
-    worldPosition: {x: 13.795, y: -0.17668915, z: 16.11}
+    worldPosition: {x: 4.325, y: 0.5348945, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 14}
-    worldPosition: {x: 12.93, y: -0.11331412, z: 17.61}
+    worldPosition: {x: 3.46, y: 1.5375371, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 15}
-    worldPosition: {x: 13.795, y: -0.23577796, z: 19.11}
+    worldPosition: {x: 4.325, y: 2.2777667, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 16}
-    worldPosition: {x: 12.93, y: -0.36972934, z: 20.61}
+    worldPosition: {x: 3.46, y: 2.3056087, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 17}
-    worldPosition: {x: 13.795, y: -0.45394304, z: 22.11}
+    worldPosition: {x: 4.325, y: 2.388095, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 18}
-    worldPosition: {x: 12.93, y: -0.38934833, z: 23.61}
+    worldPosition: {x: 3.46, y: 2.0219083, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 19}
-    worldPosition: {x: 13.795, y: -0.54736173, z: 25.11}
+    worldPosition: {x: 4.325, y: 2.048604, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 20}
-    worldPosition: {x: 12.93, y: -0.73658466, z: 26.61}
+    worldPosition: {x: 3.46, y: 1.6611825, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 21}
-    worldPosition: {x: 13.795, y: -0.736061, z: 28.11}
+    worldPosition: {x: 4.325, y: 1.6028544, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 22}
-    worldPosition: {x: 12.93, y: -0.3338914, z: 29.61}
+    worldPosition: {x: 3.46, y: 0.9252101, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 23}
-    worldPosition: {x: 13.795, y: -0.12597486, z: 31.11}
+    worldPosition: {x: 4.325, y: 0.27919707, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 2, y: 24}
-    worldPosition: {x: 12.93, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 3.46, y: 0.04685149, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 0}
-    worldPosition: {x: 14.66, y: 0.6941268, z: -3.39}
+    worldPosition: {x: 5.19, y: -0.083330154, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 1}
-    worldPosition: {x: 15.525001, y: 2.0181131, z: -1.8900001}
+    worldPosition: {x: 6.0550003, y: -0.12797928, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 2}
-    worldPosition: {x: 14.66, y: 2.2203093, z: -0.3900001}
+    worldPosition: {x: 5.19, y: -0.083330154, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 3}
-    worldPosition: {x: 15.525001, y: 2.2871761, z: 1.1099999}
+    worldPosition: {x: 6.0550003, y: -0.11478892, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 4}
-    worldPosition: {x: 14.66, y: 2.2871761, z: 2.61}
+    worldPosition: {x: 5.19, y: -0.083330154, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 5}
-    worldPosition: {x: 15.525001, y: 2.2871761, z: 4.1099997}
+    worldPosition: {x: 6.0550003, y: -0.083330154, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 6}
-    worldPosition: {x: 14.66, y: 2.2178917, z: 5.6099997}
+    worldPosition: {x: 5.19, y: -0.083330154, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 7}
-    worldPosition: {x: 15.525001, y: 2.5148933, z: 7.1099997}
+    worldPosition: {x: 6.0550003, y: -0.083330154, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 8}
-    worldPosition: {x: 14.66, y: 1.5543891, z: 8.61}
+    worldPosition: {x: 5.19, y: -0.083330154, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 9}
-    worldPosition: {x: 15.525001, y: 1.1364497, z: 10.11}
+    worldPosition: {x: 6.0550003, y: -0.083330154, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 10}
-    worldPosition: {x: 14.66, y: -0.02984581, z: 11.61}
+    worldPosition: {x: 5.19, y: -0.083330154, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 11}
-    worldPosition: {x: 15.525001, y: -0.09106326, z: 13.11}
+    worldPosition: {x: 6.0550003, y: -0.083330154, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 12}
-    worldPosition: {x: 14.66, y: -0.17668915, z: 14.61}
+    worldPosition: {x: 5.19, y: -0.08182579, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 13}
-    worldPosition: {x: 15.525001, y: -0.17668915, z: 16.11}
+    worldPosition: {x: 6.0550003, y: 0.49366415, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 14}
-    worldPosition: {x: 14.66, y: -0.13781324, z: 17.61}
+    worldPosition: {x: 5.19, y: 1.6364291, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 15}
-    worldPosition: {x: 15.525001, y: -0.124240436, z: 19.11}
+    worldPosition: {x: 6.0550003, y: 2.0156274, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 16}
-    worldPosition: {x: 14.66, y: -0.39930376, z: 20.61}
+    worldPosition: {x: 5.19, y: 2.585115, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 17}
-    worldPosition: {x: 15.525001, y: -0.27410698, z: 22.11}
+    worldPosition: {x: 6.0550003, y: 2.5098963, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 18}
-    worldPosition: {x: 14.66, y: -0.38599077, z: 23.61}
+    worldPosition: {x: 5.19, y: 2.4551904, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 19}
-    worldPosition: {x: 15.525001, y: -0.2682762, z: 25.11}
+    worldPosition: {x: 6.0550003, y: 2.46078, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 20}
-    worldPosition: {x: 14.66, y: -0.6133642, z: 26.61}
+    worldPosition: {x: 5.19, y: 2.2191343, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 21}
-    worldPosition: {x: 15.525001, y: -0.2968929, z: 28.11}
+    worldPosition: {x: 6.0550003, y: 1.7088507, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 22}
-    worldPosition: {x: 14.66, y: -0.24287674, z: 29.61}
+    worldPosition: {x: 5.19, y: 0.8463787, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 23}
-    worldPosition: {x: 15.525001, y: -0.08569025, z: 31.11}
+    worldPosition: {x: 6.0550003, y: -0.18006648, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 3, y: 24}
-    worldPosition: {x: 14.66, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 5.19, y: -0.49364713, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 0}
-    worldPosition: {x: 16.39, y: 1.0565188, z: -3.39}
+    worldPosition: {x: 6.92, y: -0.3322244, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 1}
-    worldPosition: {x: 17.255001, y: 2.0881178, z: -1.8900001}
+    worldPosition: {x: 7.785, y: -0.19178061, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 2}
-    worldPosition: {x: 16.39, y: 2.2871761, z: -0.3900001}
+    worldPosition: {x: 6.92, y: -0.29054174, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 3}
-    worldPosition: {x: 17.255001, y: 2.2871761, z: 1.1099999}
+    worldPosition: {x: 7.785, y: -0.19791457, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 4}
-    worldPosition: {x: 16.39, y: 2.2871761, z: 2.61}
+    worldPosition: {x: 6.92, y: -0.17602521, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 5}
-    worldPosition: {x: 17.255001, y: 2.2882063, z: 4.1099997}
+    worldPosition: {x: 7.785, y: -0.22209653, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 6}
-    worldPosition: {x: 16.39, y: 2.3072026, z: 5.6099997}
+    worldPosition: {x: 6.92, y: -0.083330154, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 7}
-    worldPosition: {x: 17.255001, y: 2.5638843, z: 7.1099997}
+    worldPosition: {x: 7.785, y: -0.083330154, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 8}
-    worldPosition: {x: 16.39, y: 2.766341, z: 8.61}
+    worldPosition: {x: 6.92, y: -0.083330154, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 9}
-    worldPosition: {x: 17.255001, y: 2.63185, z: 10.11}
+    worldPosition: {x: 7.785, y: -0.083330154, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 10}
-    worldPosition: {x: 16.39, y: 0.6119392, z: 11.61}
+    worldPosition: {x: 6.92, y: -0.083330154, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 11}
-    worldPosition: {x: 17.255001, y: 0.13550007, z: 13.11}
+    worldPosition: {x: 7.785, y: -0.083330154, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 12}
-    worldPosition: {x: 16.39, y: -0.12389024, z: 14.61}
+    worldPosition: {x: 6.92, y: -0.083330154, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 13}
-    worldPosition: {x: 17.255001, y: -0.17668915, z: 16.11}
+    worldPosition: {x: 7.785, y: -0.02677691, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 14}
-    worldPosition: {x: 16.39, y: -0.17668915, z: 17.61}
+    worldPosition: {x: 6.92, y: 0.8240643, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 15}
-    worldPosition: {x: 17.255001, y: -0.083330154, z: 19.11}
+    worldPosition: {x: 7.785, y: 0.6506229, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 16}
-    worldPosition: {x: 16.39, y: -0.121335216, z: 20.61}
+    worldPosition: {x: 6.92, y: 2.3615386, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 17}
-    worldPosition: {x: 17.255001, y: -0.083330154, z: 22.11}
+    worldPosition: {x: 7.785, y: 2.9231608, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 18}
-    worldPosition: {x: 16.39, y: -0.16494161, z: 23.61}
+    worldPosition: {x: 6.92, y: 2.6966898, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 19}
-    worldPosition: {x: 17.255001, y: -0.083330154, z: 25.11}
+    worldPosition: {x: 7.785, y: 2.216163, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 20}
-    worldPosition: {x: 16.39, y: -0.1536974, z: 26.61}
+    worldPosition: {x: 6.92, y: 1.8729792, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 21}
-    worldPosition: {x: 17.255001, y: -0.083330154, z: 28.11}
+    worldPosition: {x: 7.785, y: 0.8867558, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 22}
-    worldPosition: {x: 16.39, y: -0.11250064, z: 29.61}
+    worldPosition: {x: 6.92, y: 0.37718868, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 23}
-    worldPosition: {x: 17.255001, y: -0.083330154, z: 31.11}
+    worldPosition: {x: 7.785, y: -0.18072218, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 4, y: 24}
-    worldPosition: {x: 16.39, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 6.92, y: -0.68497676, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 0}
-    worldPosition: {x: 18.119999, y: 0.8273771, z: -3.39}
+    worldPosition: {x: 8.65, y: -0.095012926, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 1}
-    worldPosition: {x: 18.985, y: 1.721052, z: -1.8900001}
+    worldPosition: {x: 9.514999, y: -0.083330154, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 2}
-    worldPosition: {x: 18.119999, y: 2.2871761, z: -0.3900001}
+    worldPosition: {x: 8.65, y: -0.08536511, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 3}
-    worldPosition: {x: 18.985, y: 2.2871761, z: 1.1099999}
+    worldPosition: {x: 9.514999, y: -0.083330154, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 4}
-    worldPosition: {x: 18.119999, y: 2.2871761, z: 2.61}
+    worldPosition: {x: 8.65, y: -0.13754992, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 5}
-    worldPosition: {x: 18.985, y: 2.2882063, z: 4.1099997}
+    worldPosition: {x: 9.514999, y: -0.083330154, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 6}
-    worldPosition: {x: 18.119999, y: 2.3475153, z: 5.6099997}
+    worldPosition: {x: 8.65, y: -0.17438866, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 7}
-    worldPosition: {x: 18.985, y: 2.4872627, z: 7.1099997}
+    worldPosition: {x: 9.514999, y: -0.10638278, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 8}
-    worldPosition: {x: 18.119999, y: 2.7241383, z: 8.61}
+    worldPosition: {x: 8.65, y: -0.083330154, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 9}
-    worldPosition: {x: 18.985, y: 2.8022673, z: 10.11}
+    worldPosition: {x: 9.514999, y: -0.083330154, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 10}
-    worldPosition: {x: 18.119999, y: 1.3835102, z: 11.61}
+    worldPosition: {x: 8.65, y: -0.083330154, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 11}
-    worldPosition: {x: 18.985, y: 0.119364254, z: 13.11}
+    worldPosition: {x: 9.514999, y: -0.083330154, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 12}
-    worldPosition: {x: 18.119999, y: -0.083183445, z: 14.61}
+    worldPosition: {x: 8.65, y: -0.083330154, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 13}
-    worldPosition: {x: 18.985, y: -0.17668915, z: 16.11}
+    worldPosition: {x: 9.514999, y: -0.027318122, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 14}
-    worldPosition: {x: 18.119999, y: -0.17668915, z: 17.61}
+    worldPosition: {x: 8.65, y: 0.07649737, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 15}
-    worldPosition: {x: 18.985, y: -0.18884087, z: 19.11}
+    worldPosition: {x: 9.514999, y: 0.13809541, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 16}
-    worldPosition: {x: 18.119999, y: -0.083330154, z: 20.61}
+    worldPosition: {x: 8.65, y: 1.0901122, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 17}
-    worldPosition: {x: 18.985, y: -0.16596721, z: 22.11}
+    worldPosition: {x: 9.514999, y: 1.5221108, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 18}
-    worldPosition: {x: 18.119999, y: -0.083330154, z: 23.61}
+    worldPosition: {x: 8.65, y: 2.4725685, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 19}
-    worldPosition: {x: 18.985, y: -0.1912143, z: 25.11}
+    worldPosition: {x: 9.514999, y: 0.47619015, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 20}
-    worldPosition: {x: 18.119999, y: -0.083330154, z: 26.61}
+    worldPosition: {x: 8.65, y: 0.43337756, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 21}
-    worldPosition: {x: 18.985, y: -0.083330154, z: 28.11}
+    worldPosition: {x: 9.514999, y: 0.084097214, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 22}
-    worldPosition: {x: 18.119999, y: -0.083330154, z: 29.61}
+    worldPosition: {x: 8.65, y: 0.058749493, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 23}
-    worldPosition: {x: 18.985, y: -0.083330154, z: 31.11}
+    worldPosition: {x: 9.514999, y: -0.17501515, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 5, y: 24}
-    worldPosition: {x: 18.119999, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 8.65, y: -0.56502104, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 0}
-    worldPosition: {x: 19.85, y: 0.29780778, z: -3.39}
+    worldPosition: {x: 10.38, y: -0.023875961, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 1}
-    worldPosition: {x: 20.715, y: 0.73911047, z: -1.8900001}
+    worldPosition: {x: 11.245, y: 0.3141292, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 2}
-    worldPosition: {x: 19.85, y: 2.125783, z: -0.3900001}
+    worldPosition: {x: 10.38, y: -0.035080273, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 3}
-    worldPosition: {x: 20.715, y: 2.2532356, z: 1.1099999}
+    worldPosition: {x: 11.245, y: 0.10190529, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 4}
-    worldPosition: {x: 19.85, y: 2.2871761, z: 2.61}
+    worldPosition: {x: 10.38, y: -0.083330154, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 5}
-    worldPosition: {x: 20.715, y: 2.2871761, z: 4.1099997}
+    worldPosition: {x: 11.245, y: -0.06954577, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 6}
-    worldPosition: {x: 19.85, y: 2.316675, z: 5.6099997}
+    worldPosition: {x: 10.38, y: -0.083330154, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 7}
-    worldPosition: {x: 20.715, y: 2.3560803, z: 7.1099997}
+    worldPosition: {x: 11.245, y: -0.17668915, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 8}
-    worldPosition: {x: 19.85, y: 2.4270592, z: 8.61}
+    worldPosition: {x: 10.38, y: -0.13976356, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 9}
-    worldPosition: {x: 20.715, y: 2.4736567, z: 10.11}
+    worldPosition: {x: 11.245, y: -0.17668915, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 10}
-    worldPosition: {x: 19.85, y: 1.17174, z: 11.61}
+    worldPosition: {x: 10.38, y: -0.1061271, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 11}
-    worldPosition: {x: 20.715, y: -0.10184988, z: 13.11}
+    worldPosition: {x: 11.245, y: -0.09550667, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 12}
-    worldPosition: {x: 19.85, y: -0.15481651, z: 14.61}
+    worldPosition: {x: 10.38, y: -0.083330154, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 13}
-    worldPosition: {x: 20.715, y: -0.17668915, z: 16.11}
+    worldPosition: {x: 11.245, y: -0.074981295, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 14}
-    worldPosition: {x: 19.85, y: -0.17668915, z: 17.61}
+    worldPosition: {x: 10.38, y: 0.0057823723, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 15}
-    worldPosition: {x: 20.715, y: -0.15108027, z: 19.11}
+    worldPosition: {x: 11.245, y: -0.17078847, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 16}
-    worldPosition: {x: 19.85, y: -0.32313818, z: 20.61}
+    worldPosition: {x: 10.38, y: 0.11611662, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 17}
-    worldPosition: {x: 20.715, y: -0.24924327, z: 22.11}
+    worldPosition: {x: 11.245, y: -0.06933287, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 18}
-    worldPosition: {x: 19.85, y: -0.351868, z: 23.61}
+    worldPosition: {x: 10.38, y: 0.39309874, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 19}
-    worldPosition: {x: 20.715, y: -0.15231189, z: 25.11}
+    worldPosition: {x: 11.245, y: -0.07808971, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 20}
-    worldPosition: {x: 19.85, y: -0.28975207, z: 26.61}
+    worldPosition: {x: 10.38, y: 0.072396405, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 21}
-    worldPosition: {x: 20.715, y: -0.26869404, z: 28.11}
+    worldPosition: {x: 11.245, y: -0.046858303, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 22}
-    worldPosition: {x: 19.85, y: -0.083330154, z: 29.61}
+    worldPosition: {x: 10.38, y: -0.062341467, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 23}
-    worldPosition: {x: 20.715, y: -0.083330154, z: 31.11}
+    worldPosition: {x: 11.245, y: -0.06138295, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 6, y: 24}
-    worldPosition: {x: 19.85, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 10.38, y: -0.20665966, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 0}
-    worldPosition: {x: 21.580002, y: -0.083330154, z: -3.39}
+    worldPosition: {x: 12.110001, y: 0.7558652, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 1}
-    worldPosition: {x: 22.445, y: -0.042970873, z: -1.8900001}
+    worldPosition: {x: 12.975, y: 1.7432594, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 2}
-    worldPosition: {x: 21.580002, y: 1.2433639, z: -0.3900001}
+    worldPosition: {x: 12.110001, y: 0.90709126, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 3}
-    worldPosition: {x: 22.445, y: 1.5879917, z: 1.1099999}
+    worldPosition: {x: 12.975, y: 1.4050512, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 4}
-    worldPosition: {x: 21.580002, y: 2.2831173, z: 2.61}
+    worldPosition: {x: 12.110001, y: 0.59208703, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 5}
-    worldPosition: {x: 22.445, y: 2.2871761, z: 4.1099997}
+    worldPosition: {x: 12.975, y: 1.3458762, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 6}
-    worldPosition: {x: 21.580002, y: 2.2871761, z: 5.6099997}
+    worldPosition: {x: 12.110001, y: 0.055681955, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 7}
-    worldPosition: {x: 22.445, y: 2.2871761, z: 7.1099997}
+    worldPosition: {x: 12.975, y: -0.17002083, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 8}
-    worldPosition: {x: 21.580002, y: 2.360239, z: 8.61}
+    worldPosition: {x: 12.110001, y: -0.17668915, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 9}
-    worldPosition: {x: 22.445, y: 1.6369779, z: 10.11}
+    worldPosition: {x: 12.975, y: -0.17668915, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 10}
-    worldPosition: {x: 21.580002, y: 0.34711665, z: 11.61}
+    worldPosition: {x: 12.110001, y: -0.17668915, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 11}
-    worldPosition: {x: 22.445, y: 0.03187652, z: 13.11}
+    worldPosition: {x: 12.975, y: -0.17668915, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 12}
-    worldPosition: {x: 21.580002, y: -0.16451073, z: 14.61}
+    worldPosition: {x: 12.110001, y: -0.10381271, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 13}
-    worldPosition: {x: 22.445, y: -0.17668915, z: 16.11}
+    worldPosition: {x: 12.975, y: -0.2976522, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 14}
-    worldPosition: {x: 21.580002, y: -0.17668915, z: 17.61}
+    worldPosition: {x: 12.110001, y: -0.24557418, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 15}
-    worldPosition: {x: 22.445, y: -0.083330154, z: 19.11}
+    worldPosition: {x: 12.975, y: -0.35732874, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 16}
-    worldPosition: {x: 21.580002, y: -0.09482872, z: 20.61}
+    worldPosition: {x: 12.110001, y: -0.38448343, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 17}
-    worldPosition: {x: 22.445, y: -0.083330154, z: 22.11}
+    worldPosition: {x: 12.975, y: -0.56718045, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 18}
-    worldPosition: {x: 21.580002, y: -0.084546804, z: 23.61}
+    worldPosition: {x: 12.110001, y: -0.46017936, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 19}
-    worldPosition: {x: 22.445, y: -0.083330154, z: 25.11}
+    worldPosition: {x: 12.975, y: -0.6225456, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 20}
-    worldPosition: {x: 21.580002, y: -0.17088619, z: 26.61}
+    worldPosition: {x: 12.110001, y: -0.16511288, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 21}
-    worldPosition: {x: 22.445, y: -0.2948701, z: 28.11}
+    worldPosition: {x: 12.975, y: -0.100927725, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 22}
-    worldPosition: {x: 21.580002, y: -0.11861775, z: 29.61}
+    worldPosition: {x: 12.110001, y: -0.07090599, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 23}
-    worldPosition: {x: 22.445, y: -0.083330154, z: 31.11}
+    worldPosition: {x: 12.975, y: -0.04273796, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 7, y: 24}
-    worldPosition: {x: 21.580002, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 12.110001, y: -0.114654906, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 0}
-    worldPosition: {x: 23.310001, y: -0.20228416, z: -3.39}
+    worldPosition: {x: 13.84, y: 2.0487661, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 1}
-    worldPosition: {x: 24.175, y: -0.34700212, z: -1.8900001}
+    worldPosition: {x: 14.705, y: 2.2871761, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 2}
-    worldPosition: {x: 23.310001, y: 0.015960045, z: -0.3900001}
+    worldPosition: {x: 13.84, y: 2.1821132, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 3}
-    worldPosition: {x: 24.175, y: 0.1673612, z: 1.1099999}
+    worldPosition: {x: 14.705, y: 2.2832055, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 4}
-    worldPosition: {x: 23.310001, y: 1.7726814, z: 2.61}
+    worldPosition: {x: 13.84, y: 1.9564618, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 5}
-    worldPosition: {x: 24.175, y: 1.7920312, z: 4.1099997}
+    worldPosition: {x: 14.705, y: 2.1124225, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 6}
-    worldPosition: {x: 23.310001, y: 2.2806323, z: 5.6099997}
+    worldPosition: {x: 13.84, y: 0.541769, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 7}
-    worldPosition: {x: 24.175, y: 2.121318, z: 7.1099997}
+    worldPosition: {x: 14.705, y: 0.21086724, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 8}
-    worldPosition: {x: 23.310001, y: 2.1873064, z: 8.61}
+    worldPosition: {x: 13.84, y: -0.13752428, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 9}
-    worldPosition: {x: 24.175, y: 0.97390515, z: 10.11}
+    worldPosition: {x: 14.705, y: -0.16856956, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 10}
-    worldPosition: {x: 23.310001, y: 0.1338552, z: 11.61}
+    worldPosition: {x: 13.84, y: -0.17668915, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 11}
-    worldPosition: {x: 24.175, y: -0.10607613, z: 13.11}
+    worldPosition: {x: 14.705, y: -0.17668915, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 1
+    isObstructed: 0
   - gridPosition: {x: 8, y: 12}
-    worldPosition: {x: 23.310001, y: -0.15624642, z: 14.61}
+    worldPosition: {x: 13.84, y: -0.12554978, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 13}
-    worldPosition: {x: 24.175, y: -0.17668915, z: 16.11}
+    worldPosition: {x: 14.705, y: -0.26369855, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 14}
-    worldPosition: {x: 23.310001, y: -0.17668915, z: 17.61}
+    worldPosition: {x: 13.84, y: -0.41254088, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 15}
-    worldPosition: {x: 24.175, y: -0.083330154, z: 19.11}
+    worldPosition: {x: 14.705, y: -0.42899153, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 16}
-    worldPosition: {x: 23.310001, y: -0.083330154, z: 20.61}
+    worldPosition: {x: 13.84, y: -0.4442983, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 17}
-    worldPosition: {x: 24.175, y: -0.083330154, z: 22.11}
+    worldPosition: {x: 14.705, y: -0.4925899, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 18}
-    worldPosition: {x: 23.310001, y: -0.083330154, z: 23.61}
+    worldPosition: {x: 13.84, y: -0.82788515, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 19}
-    worldPosition: {x: 24.175, y: -0.083330154, z: 25.11}
+    worldPosition: {x: 14.705, y: -0.45405453, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 20}
-    worldPosition: {x: 23.310001, y: -0.083330154, z: 26.61}
+    worldPosition: {x: 13.84, y: -0.24134785, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 21}
-    worldPosition: {x: 24.175, y: -0.14819092, z: 28.11}
+    worldPosition: {x: 14.705, y: -0.08742604, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 22}
-    worldPosition: {x: 23.310001, y: -0.23894504, z: 29.61}
+    worldPosition: {x: 13.84, y: -0.083330154, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 23}
-    worldPosition: {x: 24.175, y: -0.118372105, z: 31.11}
+    worldPosition: {x: 14.705, y: -0.083330154, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 8, y: 24}
-    worldPosition: {x: 23.310001, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 13.84, y: -0.019980168, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 0}
-    worldPosition: {x: 25.04, y: -0.9637687, z: -3.39}
+    worldPosition: {x: 15.57, y: 2.2871761, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 1}
-    worldPosition: {x: 25.904999, y: -1.0360769, z: -1.8900001}
+    worldPosition: {x: 16.435, y: 2.2871761, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 2}
-    worldPosition: {x: 25.04, y: -0.5417186, z: -0.3900001}
+    worldPosition: {x: 15.57, y: 2.2871761, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 3}
-    worldPosition: {x: 25.904999, y: -0.70202935, z: 1.1099999}
+    worldPosition: {x: 16.435, y: 2.289646, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 4}
-    worldPosition: {x: 25.04, y: 0.40326232, z: 2.61}
+    worldPosition: {x: 15.57, y: 2.3144884, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 5}
-    worldPosition: {x: 25.904999, y: 0.38168877, z: 4.1099997}
+    worldPosition: {x: 16.435, y: 2.6770184, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 6}
-    worldPosition: {x: 25.04, y: 1.5159492, z: 5.6099997}
+    worldPosition: {x: 15.57, y: 2.464988, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 7}
-    worldPosition: {x: 25.904999, y: 0.77801824, z: 7.1099997}
+    worldPosition: {x: 16.435, y: 1.732339, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 8}
-    worldPosition: {x: 25.04, y: 1.2268658, z: 8.61}
+    worldPosition: {x: 15.57, y: 0.097941324, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 9}
-    worldPosition: {x: 25.904999, y: 0.22425309, z: 10.11}
+    worldPosition: {x: 16.435, y: -0.030496664, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 10}
-    worldPosition: {x: 25.04, y: -0.042158887, z: 11.61}
+    worldPosition: {x: 15.57, y: -0.17668915, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 11}
-    worldPosition: {x: 25.904999, y: -0.13474429, z: 13.11}
+    worldPosition: {x: 16.435, y: -0.17668915, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 1
+    isObstructed: 0
   - gridPosition: {x: 9, y: 12}
-    worldPosition: {x: 25.04, y: -0.17668915, z: 14.61}
+    worldPosition: {x: 15.57, y: -0.09709946, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 1
+    isObstructed: 0
   - gridPosition: {x: 9, y: 13}
-    worldPosition: {x: 25.904999, y: -0.08738899, z: 16.11}
+    worldPosition: {x: 16.435, y: -0.083330154, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 14}
-    worldPosition: {x: 25.04, y: -0.11813769, z: 17.61}
+    worldPosition: {x: 15.57, y: -0.25661424, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 15}
-    worldPosition: {x: 25.904999, y: -0.083330154, z: 19.11}
+    worldPosition: {x: 16.435, y: -0.1378063, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 16}
-    worldPosition: {x: 25.04, y: -0.083330154, z: 20.61}
+    worldPosition: {x: 15.57, y: -0.22539711, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 17}
-    worldPosition: {x: 25.904999, y: -0.083330154, z: 22.11}
+    worldPosition: {x: 16.435, y: -0.16057979, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 18}
-    worldPosition: {x: 25.04, y: -0.083330154, z: 23.61}
+    worldPosition: {x: 15.57, y: -0.32411647, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 19}
-    worldPosition: {x: 25.904999, y: -0.083330154, z: 25.11}
+    worldPosition: {x: 16.435, y: -0.11840921, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 20}
-    worldPosition: {x: 25.04, y: -0.083330154, z: 26.61}
+    worldPosition: {x: 15.57, y: -0.12063074, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 21}
-    worldPosition: {x: 25.904999, y: -0.09144783, z: 28.11}
+    worldPosition: {x: 16.435, y: -0.083330154, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 22}
-    worldPosition: {x: 25.04, y: -0.27639568, z: 29.61}
+    worldPosition: {x: 15.57, y: -0.083330154, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 23}
-    worldPosition: {x: 25.904999, y: -0.34362972, z: 31.11}
+    worldPosition: {x: 16.435, y: -0.083330154, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 9, y: 24}
-    worldPosition: {x: 25.04, y: -0.11396805, z: 32.61}
+    worldPosition: {x: 15.57, y: -0.083330154, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 0}
-    worldPosition: {x: 26.77, y: -1.5034213, z: -3.39}
+    worldPosition: {x: 17.3, y: 2.2871761, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 1}
-    worldPosition: {x: 27.634998, y: -1.5466564, z: -1.8900001}
+    worldPosition: {x: 18.164999, y: 2.2871761, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 2}
-    worldPosition: {x: 26.77, y: -1.1303852, z: -0.3900001}
+    worldPosition: {x: 17.3, y: 2.2871761, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 3}
-    worldPosition: {x: 27.634998, y: -1.2204459, z: 1.1099999}
+    worldPosition: {x: 18.164999, y: 2.2963116, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 4}
-    worldPosition: {x: 26.77, y: -0.8062026, z: 2.61}
+    worldPosition: {x: 17.3, y: 2.4333038, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 5}
-    worldPosition: {x: 27.634998, y: -0.87353176, z: 4.1099997}
+    worldPosition: {x: 18.164999, y: 2.5747173, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 6}
-    worldPosition: {x: 26.77, y: 0.20080566, z: 5.6099997}
+    worldPosition: {x: 17.3, y: 2.9025443, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 7}
-    worldPosition: {x: 27.634998, y: -0.011018569, z: 7.1099997}
+    worldPosition: {x: 18.164999, y: 2.592503, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 8}
-    worldPosition: {x: 26.77, y: 0.17708962, z: 8.61}
+    worldPosition: {x: 17.3, y: 0.71984756, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 9}
-    worldPosition: {x: 27.634998, y: -0.046708703, z: 10.11}
+    worldPosition: {x: 18.164999, y: 0.06586186, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 10}
-    worldPosition: {x: 26.77, y: -0.047146257, z: 11.61}
+    worldPosition: {x: 17.3, y: -0.13801107, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 11}
-    worldPosition: {x: 27.634998, y: -0.083330154, z: 13.11}
+    worldPosition: {x: 18.164999, y: -0.17668915, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 12}
-    worldPosition: {x: 26.77, y: -0.083330154, z: 14.61}
+    worldPosition: {x: 17.3, y: -0.17359342, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 13}
-    worldPosition: {x: 27.634998, y: -0.083330154, z: 16.11}
+    worldPosition: {x: 18.164999, y: -0.083330154, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 14}
-    worldPosition: {x: 26.77, y: -0.083330154, z: 17.61}
+    worldPosition: {x: 17.3, y: -0.083330154, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 15}
-    worldPosition: {x: 27.634998, y: -0.22709827, z: 19.11}
+    worldPosition: {x: 18.164999, y: -0.083330154, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 16}
-    worldPosition: {x: 26.77, y: -0.09127668, z: 20.61}
+    worldPosition: {x: 17.3, y: -0.083330154, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 17}
-    worldPosition: {x: 27.634998, y: -0.10798813, z: 22.11}
+    worldPosition: {x: 18.164999, y: -0.083330154, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 18}
-    worldPosition: {x: 26.77, y: -0.083330154, z: 23.61}
+    worldPosition: {x: 17.3, y: -0.083330154, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 19}
-    worldPosition: {x: 27.634998, y: -0.08914742, z: 25.11}
+    worldPosition: {x: 18.164999, y: -0.083330154, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 20}
-    worldPosition: {x: 26.77, y: -0.084352024, z: 26.61}
+    worldPosition: {x: 17.3, y: -0.083330154, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 21}
-    worldPosition: {x: 27.634998, y: -0.3060908, z: 28.11}
+    worldPosition: {x: 18.164999, y: -0.083330154, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 22}
-    worldPosition: {x: 26.77, y: -0.27185005, z: 29.61}
+    worldPosition: {x: 17.3, y: -0.083330154, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 23}
-    worldPosition: {x: 27.634998, y: -0.2883916, z: 31.11}
+    worldPosition: {x: 18.164999, y: -0.083330154, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 10, y: 24}
-    worldPosition: {x: 26.77, y: -0.34485376, z: 32.61}
+    worldPosition: {x: 17.3, y: -0.083330154, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 0}
-    worldPosition: {x: 28.5, y: -1.3789895, z: -3.39}
+    worldPosition: {x: 19.03, y: 2.2823846, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 1}
-    worldPosition: {x: 29.365002, y: -1.2243958, z: -1.8900001}
+    worldPosition: {x: 19.895, y: 2.2871761, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 2}
-    worldPosition: {x: 28.5, y: -1.5778556, z: -0.3900001}
+    worldPosition: {x: 19.03, y: 2.2871761, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 3}
-    worldPosition: {x: 29.365002, y: -1.5891776, z: 1.1099999}
+    worldPosition: {x: 19.895, y: 2.2922518, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 4}
-    worldPosition: {x: 28.5, y: -1.2897611, z: 2.61}
+    worldPosition: {x: 19.03, y: 2.40121, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 5}
-    worldPosition: {x: 29.365002, y: -1.4964347, z: 4.1099997}
+    worldPosition: {x: 19.895, y: 2.4038785, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 6}
-    worldPosition: {x: 28.5, y: -0.920484, z: 5.6099997}
+    worldPosition: {x: 19.03, y: 2.58978, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 7}
-    worldPosition: {x: 29.365002, y: -0.94068646, z: 7.1099997}
+    worldPosition: {x: 19.895, y: 2.6126735, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 8}
-    worldPosition: {x: 28.5, y: -0.09835689, z: 8.61}
+    worldPosition: {x: 19.03, y: 0.92388445, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 9}
-    worldPosition: {x: 29.365002, y: -0.10089372, z: 10.11}
+    worldPosition: {x: 19.895, y: -0.07335526, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 10}
-    worldPosition: {x: 28.5, y: -0.083330154, z: 11.61}
+    worldPosition: {x: 19.03, y: -0.16451073, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 11}
-    worldPosition: {x: 29.365002, y: -0.083330154, z: 13.11}
+    worldPosition: {x: 19.895, y: -0.17668915, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 12}
-    worldPosition: {x: 28.5, y: -0.083330154, z: 14.61}
+    worldPosition: {x: 19.03, y: -0.17668915, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 13}
-    worldPosition: {x: 29.365002, y: -0.32170704, z: 16.11}
+    worldPosition: {x: 19.895, y: -0.27816582, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 14}
-    worldPosition: {x: 28.5, y: -0.22360666, z: 17.61}
+    worldPosition: {x: 19.03, y: -0.16602203, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 15}
-    worldPosition: {x: 29.365002, y: -0.25655198, z: 19.11}
+    worldPosition: {x: 19.895, y: -0.36716953, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 16}
-    worldPosition: {x: 28.5, y: -0.3172156, z: 20.61}
+    worldPosition: {x: 19.03, y: -0.21931209, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 17}
-    worldPosition: {x: 29.365002, y: -0.31469727, z: 22.11}
+    worldPosition: {x: 19.895, y: -0.30962142, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 18}
-    worldPosition: {x: 28.5, y: -0.17225043, z: 23.61}
+    worldPosition: {x: 19.03, y: -0.11166741, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 19}
-    worldPosition: {x: 29.365002, y: -0.25652087, z: 25.11}
+    worldPosition: {x: 19.895, y: -0.10214867, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 20}
-    worldPosition: {x: 28.5, y: -0.29460606, z: 26.61}
+    worldPosition: {x: 19.03, y: -0.083330154, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 21}
-    worldPosition: {x: 29.365002, y: -0.12001865, z: 28.11}
+    worldPosition: {x: 19.895, y: -0.083330154, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 22}
-    worldPosition: {x: 28.5, y: -0.15105163, z: 29.61}
+    worldPosition: {x: 19.03, y: -0.083330154, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 23}
-    worldPosition: {x: 29.365002, y: -0.083330154, z: 31.11}
+    worldPosition: {x: 19.895, y: -0.083330154, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 11, y: 24}
-    worldPosition: {x: 28.5, y: -0.10840143, z: 32.61}
+    worldPosition: {x: 19.03, y: -0.083330154, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 0}
-    worldPosition: {x: 30.23, y: -0.5021408, z: -3.39}
+    worldPosition: {x: 20.76, y: 1.9793953, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 1}
-    worldPosition: {x: 31.095001, y: -0.35346642, z: -1.8900001}
+    worldPosition: {x: 21.625, y: 2.1513965, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 2}
-    worldPosition: {x: 30.23, y: -1.1531718, z: -0.3900001}
+    worldPosition: {x: 20.76, y: 2.2871761, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 3}
-    worldPosition: {x: 31.095001, y: -1.0757467, z: 1.1099999}
+    worldPosition: {x: 21.625, y: 2.2871761, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 4}
-    worldPosition: {x: 30.23, y: -1.7946322, z: 2.61}
+    worldPosition: {x: 20.76, y: 2.3011813, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 5}
-    worldPosition: {x: 31.095001, y: -2.0544941, z: 4.1099997}
+    worldPosition: {x: 21.625, y: 2.2952938, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 6}
-    worldPosition: {x: 30.23, y: -1.4398994, z: 5.6099997}
+    worldPosition: {x: 20.76, y: 2.4274476, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 7}
-    worldPosition: {x: 31.095001, y: -1.2412959, z: 7.1099997}
+    worldPosition: {x: 21.625, y: 1.7047462, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 8}
-    worldPosition: {x: 30.23, y: -0.92324007, z: 8.61}
+    worldPosition: {x: 20.76, y: 0.33656996, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 9}
-    worldPosition: {x: 31.095001, y: -0.86362904, z: 10.11}
+    worldPosition: {x: 21.625, y: -0.08936797, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 10}
-    worldPosition: {x: 30.23, y: -0.08460109, z: 11.61}
+    worldPosition: {x: 20.76, y: -0.17668915, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 11}
-    worldPosition: {x: 31.095001, y: -0.1452546, z: 13.11}
+    worldPosition: {x: 21.625, y: -0.17668915, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 12}
-    worldPosition: {x: 30.23, y: -0.20231268, z: 14.61}
+    worldPosition: {x: 20.76, y: -0.17668915, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 13}
-    worldPosition: {x: 31.095001, y: -0.22115791, z: 16.11}
+    worldPosition: {x: 21.625, y: -0.083330154, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 14}
-    worldPosition: {x: 30.23, y: -0.1926983, z: 17.61}
+    worldPosition: {x: 20.76, y: -0.24058285, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 15}
-    worldPosition: {x: 31.095001, y: -0.083330154, z: 19.11}
+    worldPosition: {x: 21.625, y: -0.09144783, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 16}
-    worldPosition: {x: 30.23, y: -0.13431153, z: 20.61}
+    worldPosition: {x: 20.76, y: -0.15087953, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 17}
-    worldPosition: {x: 31.095001, y: -0.092034996, z: 22.11}
+    worldPosition: {x: 21.625, y: -0.08665325, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 18}
-    worldPosition: {x: 30.23, y: -0.24078658, z: 23.61}
+    worldPosition: {x: 20.76, y: -0.32281494, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 19}
-    worldPosition: {x: 31.095001, y: -0.083330154, z: 25.11}
+    worldPosition: {x: 21.625, y: -0.30252075, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 20}
-    worldPosition: {x: 30.23, y: -0.08960583, z: 26.61}
+    worldPosition: {x: 20.76, y: -0.083330154, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 21}
-    worldPosition: {x: 31.095001, y: -0.083330154, z: 28.11}
+    worldPosition: {x: 21.625, y: -0.083330154, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 22}
-    worldPosition: {x: 30.23, y: -0.083330154, z: 29.61}
+    worldPosition: {x: 20.76, y: -0.083330154, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 23}
-    worldPosition: {x: 31.095001, y: -0.083330154, z: 31.11}
+    worldPosition: {x: 21.625, y: -0.083330154, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 12, y: 24}
-    worldPosition: {x: 30.23, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 20.76, y: -0.083330154, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 0}
-    worldPosition: {x: 31.96, y: -0.083330154, z: -3.39}
+    worldPosition: {x: 22.49, y: 0.7233542, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 1}
-    worldPosition: {x: 32.825, y: -0.083330154, z: -1.8900001}
+    worldPosition: {x: 23.355, y: 1.0550035, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 2}
-    worldPosition: {x: 31.96, y: -0.2973276, z: -0.3900001}
+    worldPosition: {x: 22.49, y: 2.213986, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 3}
-    worldPosition: {x: 32.825, y: -0.40353706, z: 1.1099999}
+    worldPosition: {x: 23.355, y: 2.2210927, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 4}
-    worldPosition: {x: 31.96, y: -1.2133545, z: 2.61}
+    worldPosition: {x: 22.49, y: 2.2871761, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 5}
-    worldPosition: {x: 32.825, y: -1.2627621, z: 4.1099997}
+    worldPosition: {x: 23.355, y: 2.2757032, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 6}
-    worldPosition: {x: 31.96, y: -1.9383316, z: 5.6099997}
+    worldPosition: {x: 22.49, y: 2.2312648, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 7}
-    worldPosition: {x: 32.825, y: -1.7719384, z: 7.1099997}
+    worldPosition: {x: 23.355, y: 0.98059434, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 8}
-    worldPosition: {x: 31.96, y: -1.0091671, z: 8.61}
+    worldPosition: {x: 22.49, y: 0.09567672, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 9}
-    worldPosition: {x: 32.825, y: -0.96009254, z: 10.11}
+    worldPosition: {x: 23.355, y: -0.052818246, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 0
+    isObstructed: 1
   - gridPosition: {x: 13, y: 10}
-    worldPosition: {x: 31.96, y: -0.7265231, z: 11.61}
+    worldPosition: {x: 22.49, y: -0.16852638, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 11}
-    worldPosition: {x: 32.825, y: -0.74539423, z: 13.11}
+    worldPosition: {x: 23.355, y: -0.17668915, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 0
+    isObstructed: 1
   - gridPosition: {x: 13, y: 12}
-    worldPosition: {x: 31.96, y: -0.4671541, z: 14.61}
+    worldPosition: {x: 22.49, y: -0.17668915, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 13}
-    worldPosition: {x: 32.825, y: -0.083330154, z: 16.11}
+    worldPosition: {x: 23.355, y: -0.083330154, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 14}
-    worldPosition: {x: 31.96, y: -0.083330154, z: 17.61}
+    worldPosition: {x: 22.49, y: -0.083330154, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 15}
-    worldPosition: {x: 32.825, y: -0.083330154, z: 19.11}
+    worldPosition: {x: 23.355, y: -0.083330154, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 16}
-    worldPosition: {x: 31.96, y: -0.083330154, z: 20.61}
+    worldPosition: {x: 22.49, y: -0.083330154, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 17}
-    worldPosition: {x: 32.825, y: 0.040723313, z: 22.11}
+    worldPosition: {x: 23.355, y: -0.083330154, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 18}
-    worldPosition: {x: 31.96, y: -0.049083047, z: 23.61}
+    worldPosition: {x: 22.49, y: -0.13664857, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 19}
-    worldPosition: {x: 32.825, y: 0.07104154, z: 25.11}
+    worldPosition: {x: 23.355, y: -0.26938424, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 20}
-    worldPosition: {x: 31.96, y: -0.07637604, z: 26.61}
+    worldPosition: {x: 22.49, y: -0.13065189, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 21}
-    worldPosition: {x: 32.825, y: -0.05731889, z: 28.11}
+    worldPosition: {x: 23.355, y: -0.083330154, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 22}
-    worldPosition: {x: 31.96, y: -0.083330154, z: 29.61}
+    worldPosition: {x: 22.49, y: -0.083330154, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 23}
-    worldPosition: {x: 32.825, y: -0.083330154, z: 31.11}
+    worldPosition: {x: 23.355, y: -0.083330154, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 13, y: 24}
-    worldPosition: {x: 31.96, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 22.49, y: -0.083330154, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 0}
-    worldPosition: {x: 33.690002, y: -0.083330154, z: -3.39}
+    worldPosition: {x: 24.220001, y: -0.14812376, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 1}
-    worldPosition: {x: 34.555, y: -0.083330154, z: -1.8900001}
+    worldPosition: {x: 25.085001, y: -0.14006503, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 2}
-    worldPosition: {x: 33.690002, y: -0.083330154, z: -0.3900001}
+    worldPosition: {x: 24.220001, y: 1.2166057, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 3}
-    worldPosition: {x: 34.555, y: -0.083330154, z: 1.1099999}
+    worldPosition: {x: 25.085001, y: 1.1171905, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 4}
-    worldPosition: {x: 33.690002, y: -0.5989155, z: 2.61}
+    worldPosition: {x: 24.220001, y: 2.1053557, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 5}
-    worldPosition: {x: 34.555, y: -0.8010267, z: 4.1099997}
+    worldPosition: {x: 25.085001, y: 1.4986261, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 6}
-    worldPosition: {x: 33.690002, y: -1.4952186, z: 5.6099997}
+    worldPosition: {x: 24.220001, y: 1.682373, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 7}
-    worldPosition: {x: 34.555, y: -1.6809653, z: 7.1099997}
+    worldPosition: {x: 25.085001, y: 0.3635483, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 8}
-    worldPosition: {x: 33.690002, y: -1.5333873, z: 8.61}
+    worldPosition: {x: 24.220001, y: -0.062344033, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 9}
-    worldPosition: {x: 34.555, y: -1.3373595, z: 10.11}
+    worldPosition: {x: 25.085001, y: -0.16830198, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 0
+    isObstructed: 1
   - gridPosition: {x: 14, y: 10}
-    worldPosition: {x: 33.690002, y: -0.7685749, z: 11.61}
+    worldPosition: {x: 24.220001, y: -0.17263031, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 0
+    isObstructed: 1
   - gridPosition: {x: 14, y: 11}
-    worldPosition: {x: 34.555, y: -0.9560337, z: 13.11}
+    worldPosition: {x: 25.085001, y: -0.17668915, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 0
+    isObstructed: 1
   - gridPosition: {x: 14, y: 12}
-    worldPosition: {x: 33.690002, y: -0.16882624, z: 14.61}
+    worldPosition: {x: 24.220001, y: -0.13096705, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 13}
-    worldPosition: {x: 34.555, y: -0.083330154, z: 16.11}
+    worldPosition: {x: 25.085001, y: -0.083330154, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 14}
-    worldPosition: {x: 33.690002, y: -0.083330154, z: 17.61}
+    worldPosition: {x: 24.220001, y: -0.083330154, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 15}
-    worldPosition: {x: 34.555, y: -0.007679958, z: 19.11}
+    worldPosition: {x: 25.085001, y: -0.083330154, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 16}
-    worldPosition: {x: 33.690002, y: 0.05905153, z: 20.61}
+    worldPosition: {x: 24.220001, y: -0.083330154, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 17}
-    worldPosition: {x: 34.555, y: 0.25010914, z: 22.11}
+    worldPosition: {x: 25.085001, y: -0.083330154, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 18}
-    worldPosition: {x: 33.690002, y: 0.15787932, z: 23.61}
+    worldPosition: {x: 24.220001, y: -0.083330154, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 19}
-    worldPosition: {x: 34.555, y: 0.34209788, z: 25.11}
+    worldPosition: {x: 25.085001, y: -0.1442225, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 20}
-    worldPosition: {x: 33.690002, y: 0.12180423, z: 26.61}
+    worldPosition: {x: 24.220001, y: -0.24226202, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 21}
-    worldPosition: {x: 34.555, y: 0.10777872, z: 28.11}
+    worldPosition: {x: 25.085001, y: -0.1864177, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 22}
-    worldPosition: {x: 33.690002, y: -0.05897522, z: 29.61}
+    worldPosition: {x: 24.220001, y: -0.083330154, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 23}
-    worldPosition: {x: 34.555, y: -0.083330154, z: 31.11}
+    worldPosition: {x: 25.085001, y: -0.083330154, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 14, y: 24}
-    worldPosition: {x: 33.690002, y: -0.083330154, z: 32.61}
+    worldPosition: {x: 24.220001, y: -0.083330154, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 0}
-    worldPosition: {x: 35.420002, y: -0.083330154, z: -3.39}
+    worldPosition: {x: 25.95, y: -0.9440047, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 1}
-    worldPosition: {x: 36.285, y: -0.083330154, z: -1.8900001}
+    worldPosition: {x: 26.815, y: -0.9616464, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 2}
-    worldPosition: {x: 35.420002, y: -0.083330154, z: -0.3900001}
+    worldPosition: {x: 25.95, y: -0.11823455, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 3}
-    worldPosition: {x: 36.285, y: -0.083330154, z: 1.1099999}
+    worldPosition: {x: 26.815, y: -0.14514415, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 4}
-    worldPosition: {x: 35.420002, y: -0.08905002, z: 2.61}
+    worldPosition: {x: 25.95, y: 0.7042837, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 5}
-    worldPosition: {x: 36.285, y: -0.12672724, z: 4.1099997}
+    worldPosition: {x: 26.815, y: 0.2308594, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 6}
-    worldPosition: {x: 35.420002, y: -0.96525437, z: 5.6099997}
+    worldPosition: {x: 25.95, y: 0.4534222, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 7}
-    worldPosition: {x: 36.285, y: -1.1555934, z: 7.1099997}
+    worldPosition: {x: 26.815, y: 0.013774822, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 8}
-    worldPosition: {x: 35.420002, y: -1.7307327, z: 8.61}
+    worldPosition: {x: 25.95, y: -0.10238383, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 9}
-    worldPosition: {x: 36.285, y: -1.3620989, z: 10.11}
+    worldPosition: {x: 26.815, y: -0.083330154, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 0
+    isObstructed: 1
   - gridPosition: {x: 15, y: 10}
-    worldPosition: {x: 35.420002, y: -1.1506809, z: 11.61}
+    worldPosition: {x: 25.95, y: -0.09520371, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 0
+    isObstructed: 1
   - gridPosition: {x: 15, y: 11}
-    worldPosition: {x: 36.285, y: -1.1351541, z: 13.11}
+    worldPosition: {x: 26.815, y: -0.083330154, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
-    isObstructed: 0
+    isObstructed: 1
   - gridPosition: {x: 15, y: 12}
-    worldPosition: {x: 35.420002, y: -0.8381943, z: 14.61}
+    worldPosition: {x: 25.95, y: -0.083330154, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 13}
-    worldPosition: {x: 36.285, y: -0.46988896, z: 16.11}
+    worldPosition: {x: 26.815, y: -0.104434565, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 14}
-    worldPosition: {x: 35.420002, y: -0.074884474, z: 17.61}
+    worldPosition: {x: 25.95, y: -0.083330154, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 15}
-    worldPosition: {x: 36.285, y: 0.16054523, z: 19.11}
+    worldPosition: {x: 26.815, y: -0.083330154, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 16}
-    worldPosition: {x: 35.420002, y: 0.23426948, z: 20.61}
+    worldPosition: {x: 25.95, y: -0.083330154, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 17}
-    worldPosition: {x: 36.285, y: 0.5856036, z: 22.11}
+    worldPosition: {x: 26.815, y: -0.083330154, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 18}
-    worldPosition: {x: 35.420002, y: 0.5484678, z: 23.61}
+    worldPosition: {x: 25.95, y: -0.083330154, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 19}
-    worldPosition: {x: 36.285, y: 0.7468191, z: 25.11}
+    worldPosition: {x: 26.815, y: -0.19124293, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 20}
-    worldPosition: {x: 35.420002, y: 0.40024048, z: 26.61}
+    worldPosition: {x: 25.95, y: -0.3001656, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 21}
-    worldPosition: {x: 36.285, y: 0.28903633, z: 28.11}
+    worldPosition: {x: 26.815, y: -0.39383635, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 22}
-    worldPosition: {x: 35.420002, y: 0.04248987, z: 29.61}
+    worldPosition: {x: 25.95, y: -0.22082631, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 23}
-    worldPosition: {x: 36.285, y: -0.3424412, z: 31.11}
+    worldPosition: {x: 26.815, y: -0.24318823, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 15, y: 24}
-    worldPosition: {x: 35.420002, y: -0.429613, z: 32.61}
+    worldPosition: {x: 25.95, y: -0.14222543, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 0}
-    worldPosition: {x: 37.15, y: -0.083330154, z: -3.39}
+    worldPosition: {x: 27.68, y: -1.3903161, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 1}
-    worldPosition: {x: 38.015, y: -0.083330154, z: -1.8900001}
+    worldPosition: {x: 28.545, y: -1.4309464, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 2}
-    worldPosition: {x: 37.15, y: -0.083330154, z: -0.3900001}
+    worldPosition: {x: 27.68, y: -0.9619724, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 3}
-    worldPosition: {x: 38.015, y: -0.083330154, z: 1.1099999}
+    worldPosition: {x: 28.545, y: -1.0111654, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 4}
-    worldPosition: {x: 37.15, y: -0.083330154, z: 2.61}
+    worldPosition: {x: 27.68, y: -0.2684356, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 5}
-    worldPosition: {x: 38.015, y: -0.083330154, z: 4.1099997}
+    worldPosition: {x: 28.545, y: -0.32278526, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 6}
-    worldPosition: {x: 37.15, y: -0.2536874, z: 5.6099997}
+    worldPosition: {x: 27.68, y: -0.028604986, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 7}
-    worldPosition: {x: 38.015, y: -0.45207906, z: 7.1099997}
+    worldPosition: {x: 28.545, y: -0.083330154, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 8}
-    worldPosition: {x: 37.15, y: -1.1922406, z: 8.61}
+    worldPosition: {x: 27.68, y: -0.083330154, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 9}
-    worldPosition: {x: 38.015, y: -1.1747972, z: 10.11}
+    worldPosition: {x: 28.545, y: -0.083330154, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 10}
-    worldPosition: {x: 37.15, y: -1.3084999, z: 11.61}
+    worldPosition: {x: 27.68, y: -0.083330154, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 11}
-    worldPosition: {x: 38.015, y: -1.275102, z: 13.11}
+    worldPosition: {x: 28.545, y: -0.1201796, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 12}
-    worldPosition: {x: 37.15, y: -1.0266352, z: 14.61}
+    worldPosition: {x: 27.68, y: -0.14671472, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 13}
-    worldPosition: {x: 38.015, y: -1.0259845, z: 16.11}
+    worldPosition: {x: 28.545, y: -0.3268757, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 14}
-    worldPosition: {x: 37.15, y: -0.2395746, z: 17.61}
+    worldPosition: {x: 27.68, y: -0.20084918, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 15}
-    worldPosition: {x: 38.015, y: 0.026386308, z: 19.11}
+    worldPosition: {x: 28.545, y: -0.23215298, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 16}
-    worldPosition: {x: 37.15, y: 0.4515558, z: 20.61}
+    worldPosition: {x: 27.68, y: -0.08702812, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 17}
-    worldPosition: {x: 38.015, y: 0.8977154, z: 22.11}
+    worldPosition: {x: 28.545, y: -0.21245207, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 18}
-    worldPosition: {x: 37.15, y: 1.0099642, z: 23.61}
+    worldPosition: {x: 27.68, y: -0.20802368, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 19}
-    worldPosition: {x: 38.015, y: 1.1417061, z: 25.11}
+    worldPosition: {x: 28.545, y: -0.25350657, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 20}
-    worldPosition: {x: 37.15, y: 0.7404383, z: 26.61}
+    worldPosition: {x: 27.68, y: -0.27607685, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 21}
-    worldPosition: {x: 38.015, y: 0.035706818, z: 28.11}
+    worldPosition: {x: 28.545, y: -0.10355809, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 22}
-    worldPosition: {x: 37.15, y: -0.18415616, z: 29.61}
+    worldPosition: {x: 27.68, y: -0.24742046, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 23}
-    worldPosition: {x: 38.015, y: -0.99128354, z: 31.11}
+    worldPosition: {x: 28.545, y: -0.0884308, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 16, y: 24}
-    worldPosition: {x: 37.15, y: -0.9991696, z: 32.61}
+    worldPosition: {x: 27.68, y: -0.20308223, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 0}
-    worldPosition: {x: 38.88, y: -0.083330154, z: -3.39}
+    worldPosition: {x: 29.41, y: -1.4995953, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 1}
-    worldPosition: {x: 39.745, y: -0.083330154, z: -1.8900001}
+    worldPosition: {x: 30.275, y: -1.4562039, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 2}
-    worldPosition: {x: 38.88, y: -0.083330154, z: -0.3900001}
+    worldPosition: {x: 29.41, y: -1.662355, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 3}
-    worldPosition: {x: 39.745, y: -0.083330154, z: 1.1099999}
+    worldPosition: {x: 30.275, y: -1.8607693, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 4}
-    worldPosition: {x: 38.88, y: -0.083330154, z: 2.61}
+    worldPosition: {x: 29.41, y: -0.97403276, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 5}
-    worldPosition: {x: 39.745, y: -0.083330154, z: 4.1099997}
+    worldPosition: {x: 30.275, y: -0.9560337, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 6}
-    worldPosition: {x: 38.88, y: -0.083330154, z: 5.6099997}
+    worldPosition: {x: 29.41, y: -0.28407922, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 7}
-    worldPosition: {x: 39.745, y: -0.083330154, z: 7.1099997}
+    worldPosition: {x: 30.275, y: -0.22133827, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 8}
-    worldPosition: {x: 38.88, y: -0.7264861, z: 8.61}
+    worldPosition: {x: 29.41, y: -0.083330154, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 9}
-    worldPosition: {x: 39.745, y: -0.89817894, z: 10.11}
+    worldPosition: {x: 30.275, y: -0.08738899, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 10}
-    worldPosition: {x: 38.88, y: -1.3172913, z: 11.61}
+    worldPosition: {x: 29.41, y: -0.097444616, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 11}
-    worldPosition: {x: 39.745, y: -1.4392076, z: 13.11}
+    worldPosition: {x: 30.275, y: -0.4126642, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 12}
-    worldPosition: {x: 38.88, y: -1.3291546, z: 14.61}
+    worldPosition: {x: 29.41, y: -0.40397936, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 13}
-    worldPosition: {x: 39.745, y: -1.4559612, z: 16.11}
+    worldPosition: {x: 30.275, y: -0.11862482, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 14}
-    worldPosition: {x: 38.88, y: -1.0298007, z: 17.61}
+    worldPosition: {x: 29.41, y: -0.27270356, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 15}
-    worldPosition: {x: 39.745, y: -1.0457748, z: 19.11}
+    worldPosition: {x: 30.275, y: -0.2239261, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 16}
-    worldPosition: {x: 38.88, y: 0.33474845, z: 20.61}
+    worldPosition: {x: 29.41, y: -0.30055743, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 17}
-    worldPosition: {x: 39.745, y: 0.40585226, z: 22.11}
+    worldPosition: {x: 30.275, y: -0.11063283, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 18}
-    worldPosition: {x: 38.88, y: 1.1938224, z: 23.61}
+    worldPosition: {x: 29.41, y: -0.16692168, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 19}
-    worldPosition: {x: 39.745, y: 0.45090693, z: 25.11}
+    worldPosition: {x: 30.275, y: -0.083330154, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 20}
-    worldPosition: {x: 38.88, y: 0.4909157, z: 26.61}
+    worldPosition: {x: 29.41, y: -0.083330154, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 21}
-    worldPosition: {x: 39.745, y: -1.029827, z: 28.11}
+    worldPosition: {x: 30.275, y: -0.083330154, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 22}
-    worldPosition: {x: 38.88, y: -1.0250378, z: 29.61}
+    worldPosition: {x: 29.41, y: -0.083330154, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 23}
-    worldPosition: {x: 39.745, y: -1.6924393, z: 31.11}
+    worldPosition: {x: 30.275, y: -0.083330154, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 17, y: 24}
-    worldPosition: {x: 38.88, y: -1.6269403, z: 32.61}
+    worldPosition: {x: 29.41, y: -0.083330154, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 0}
-    worldPosition: {x: 40.61, y: -0.083330154, z: -3.39}
+    worldPosition: {x: 31.14, y: -0.79113334, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 1}
-    worldPosition: {x: 41.475002, y: -0.012921377, z: -1.8900001}
+    worldPosition: {x: 32.005, y: -0.8946241, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 2}
-    worldPosition: {x: 40.61, y: -0.083330154, z: -0.3900001}
+    worldPosition: {x: 31.14, y: -1.7382301, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 3}
-    worldPosition: {x: 41.475002, y: -0.083330154, z: 1.1099999}
+    worldPosition: {x: 32.005, y: -1.8549151, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 4}
-    worldPosition: {x: 40.61, y: -0.083330154, z: 2.61}
+    worldPosition: {x: 31.14, y: -1.5925493, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 5}
-    worldPosition: {x: 41.475002, y: -0.07998034, z: 4.1099997}
+    worldPosition: {x: 32.005, y: -1.3643159, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 6}
-    worldPosition: {x: 40.61, y: -0.083330154, z: 5.6099997}
+    worldPosition: {x: 31.14, y: -0.9560337, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 7}
-    worldPosition: {x: 41.475002, y: -0.083330154, z: 7.1099997}
+    worldPosition: {x: 32.005, y: -0.9560337, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 8}
-    worldPosition: {x: 40.61, y: -0.12540488, z: 8.61}
+    worldPosition: {x: 31.14, y: -0.17746629, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 9}
-    worldPosition: {x: 41.475002, y: -0.51875067, z: 10.11}
+    worldPosition: {x: 32.005, y: -0.57393146, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 10}
-    worldPosition: {x: 40.61, y: -1.0331622, z: 11.61}
+    worldPosition: {x: 31.14, y: -0.5030948, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 11}
-    worldPosition: {x: 41.475002, y: -1.0952444, z: 13.11}
+    worldPosition: {x: 32.005, y: -0.083330154, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 12}
-    worldPosition: {x: 40.61, y: -1.3821815, z: 14.61}
+    worldPosition: {x: 31.14, y: -0.083330154, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 13}
-    worldPosition: {x: 41.475002, y: -1.5795096, z: 16.11}
+    worldPosition: {x: 32.005, y: -0.083330154, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 14}
-    worldPosition: {x: 40.61, y: -1.5488336, z: 17.61}
+    worldPosition: {x: 31.14, y: -0.083330154, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 15}
-    worldPosition: {x: 41.475002, y: -1.654469, z: 19.11}
+    worldPosition: {x: 32.005, y: -0.069485374, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 16}
-    worldPosition: {x: 40.61, y: -1.1992285, z: 20.61}
+    worldPosition: {x: 31.14, y: -0.08736478, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 17}
-    worldPosition: {x: 41.475002, y: -1.3958957, z: 22.11}
+    worldPosition: {x: 32.005, y: -0.048737526, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 18}
-    worldPosition: {x: 40.61, y: -0.79337716, z: 23.61}
+    worldPosition: {x: 31.14, y: -0.083330154, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 19}
-    worldPosition: {x: 41.475002, y: -1.4889996, z: 25.11}
+    worldPosition: {x: 32.005, y: -0.083330154, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 20}
-    worldPosition: {x: 40.61, y: -1.121931, z: 26.61}
+    worldPosition: {x: 31.14, y: -0.083330154, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 21}
-    worldPosition: {x: 41.475002, y: -1.9925065, z: 28.11}
+    worldPosition: {x: 32.005, y: -0.083330154, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 22}
-    worldPosition: {x: 40.61, y: -1.7395189, z: 29.61}
+    worldPosition: {x: 31.14, y: -0.083330154, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 23}
-    worldPosition: {x: 41.475002, y: -1.8101132, z: 31.11}
+    worldPosition: {x: 32.005, y: -0.083330154, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 18, y: 24}
-    worldPosition: {x: 40.61, y: -1.7739097, z: 32.61}
+    worldPosition: {x: 31.14, y: -0.08793907, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 0}
-    worldPosition: {x: 42.34, y: -0.022480601, z: -3.39}
+    worldPosition: {x: 32.87, y: -0.13692209, z: 0}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 1}
-    worldPosition: {x: 43.205, y: 0.29384854, z: -1.8900001}
+    worldPosition: {x: 33.735, y: -0.21634313, z: 1.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 2}
-    worldPosition: {x: 42.34, y: 0.24031614, z: -0.3900001}
+    worldPosition: {x: 32.87, y: -1.0080768, z: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 3}
-    worldPosition: {x: 43.205, y: 0.28361037, z: 1.1099999}
+    worldPosition: {x: 33.735, y: -1.089983, z: 4.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 4}
-    worldPosition: {x: 42.34, y: -0.06937042, z: 2.61}
+    worldPosition: {x: 32.87, y: -1.8688719, z: 6}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 5}
-    worldPosition: {x: 43.205, y: 0.063791335, z: 4.1099997}
+    worldPosition: {x: 33.735, y: -1.809393, z: 7.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 6}
-    worldPosition: {x: 42.34, y: -0.0062065125, z: 5.6099997}
+    worldPosition: {x: 32.87, y: -1.074435, z: 9}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 7}
-    worldPosition: {x: 43.205, y: 0.07497406, z: 7.1099997}
+    worldPosition: {x: 33.735, y: -1.0234478, z: 10.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 8}
-    worldPosition: {x: 42.34, y: -0.11550279, z: 8.61}
+    worldPosition: {x: 32.87, y: -0.75896007, z: 12}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 9}
-    worldPosition: {x: 43.205, y: -0.53455186, z: 10.11}
+    worldPosition: {x: 33.735, y: -0.7963605, z: 13.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 10}
-    worldPosition: {x: 42.34, y: -0.39805833, z: 11.61}
+    worldPosition: {x: 32.87, y: -0.10965837, z: 15}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 11}
-    worldPosition: {x: 43.205, y: -0.20767875, z: 13.11}
+    worldPosition: {x: 33.735, y: -0.083330154, z: 16.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 12}
-    worldPosition: {x: 42.34, y: -1.0290966, z: 14.61}
+    worldPosition: {x: 32.87, y: -0.083330154, z: 18}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 13}
-    worldPosition: {x: 43.205, y: -0.9034111, z: 16.11}
+    worldPosition: {x: 33.735, y: -0.05897522, z: 19.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 14}
-    worldPosition: {x: 42.34, y: -1.4535484, z: 17.61}
+    worldPosition: {x: 32.87, y: -0.036356207, z: 21}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 15}
-    worldPosition: {x: 43.205, y: -1.4221929, z: 19.11}
+    worldPosition: {x: 33.735, y: 0.114475906, z: 22.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 16}
-    worldPosition: {x: 42.34, y: -1.7442479, z: 20.61}
+    worldPosition: {x: 32.87, y: 0.095867746, z: 24}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 17}
-    worldPosition: {x: 43.205, y: -1.6183218, z: 22.11}
+    worldPosition: {x: 33.735, y: 0.18558714, z: 25.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 18}
-    worldPosition: {x: 42.34, y: -1.6866684, z: 23.61}
+    worldPosition: {x: 32.87, y: 0.017958995, z: 27}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 19}
-    worldPosition: {x: 43.205, y: -1.8546234, z: 25.11}
+    worldPosition: {x: 33.735, y: 0.026266098, z: 28.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 20}
-    worldPosition: {x: 42.34, y: -2.196437, z: 26.61}
+    worldPosition: {x: 32.87, y: -0.083330154, z: 30}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 21}
-    worldPosition: {x: 43.205, y: -1.7862183, z: 28.11}
+    worldPosition: {x: 33.735, y: -0.083330154, z: 31.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 22}
-    worldPosition: {x: 42.34, y: -1.8480289, z: 29.61}
+    worldPosition: {x: 32.87, y: -0.083330154, z: 33}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 23}
-    worldPosition: {x: 43.205, y: -1.0200315, z: 31.11}
+    worldPosition: {x: 33.735, y: -0.21181493, z: 34.5}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   - gridPosition: {x: 19, y: 24}
-    worldPosition: {x: 42.34, y: -1.0399933, z: 32.61}
+    worldPosition: {x: 32.87, y: -0.32513547, z: 36}
     color: {r: 1, g: 1, b: 1, a: 1}
     isObstructed: 0
   gridSize: {x: 20, y: 25}

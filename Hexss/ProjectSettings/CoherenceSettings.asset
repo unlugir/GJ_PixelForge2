@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b58ca8e478745dfab801a85671962e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coherence.Editor::Coherence.Editor.ProjectSettings
+  showHubModuleQuickHelp: 1
+  portalToken: 
+  localRoomsCleanupTimeSeconds: 120
+  localWorldHostAuthority: 0
+  rsConsoleLogLevel: 2
+  rsLogToFile: 0
+  rsLogFilePath: Logs/rs_logs.txt
+  rsFileLogLevel: 1
+  reportAnalytics: 1
+  RSBundlingEnabled: 0
+  keepConnectionAlive: 0
+  activeSchemas: []
+  organization:
+    id: cfckkb5bo1hlnu2c89c0
+    name: treedimober
+    slug: treedimober
+    projects:
+    - id: cfcm41lbo1hlnu2c9s20
+      portal_token: d37176ed475443c2b34c8aeba98aebee
+      runtime_key: 7e338da064744ae0a66b5646b4d8bb05
+      name: GGJ23
+    - id: cmo1rq22t1ck1i03msjg
+      portal_token: 5500149af13546d6a0d196ffdb9ce86c
+      runtime_key: a288eba0a7514d83bfaec93930d9a975
+      name: GGJ24
+  multipleProjects: []

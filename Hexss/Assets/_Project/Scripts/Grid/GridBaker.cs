@@ -23,11 +23,11 @@ public class GridBaker : MonoBehaviour
     [SerializeField] private bool drawSceneGizmo;
     [SerializeField] private bool drawBakedGizmo;
     [SerializeField] private Mesh mesh;
-    private Grid _grid;
+    [SerializeField] private Grid grid;
 
     private void Awake()
     {
-        _grid = GetComponent<Grid>();
+        grid = GetComponent<Grid>();
     }
 
     #if UNITY_EDITOR
@@ -39,7 +39,7 @@ public class GridBaker : MonoBehaviour
             Debug.LogError("BakedGrid is null");
             return;
         }
-        _grid ??= GetComponent<Grid>();
+        grid ??= GetComponent<Grid>();
         List<BakedCell> cells = new();
         
         for (int x = 0; x < gridSize.x; x++)
@@ -47,7 +47,7 @@ public class GridBaker : MonoBehaviour
             for (int y = 0; y < gridSize.y; y++)
             {
                 bool isObstructed = false;
-                var originalCellPosition = _grid.CellToWorld(new Vector3Int(x, y, 0));
+                var originalCellPosition = grid.CellToWorld(new Vector3Int(x, y, 0));
                 var cellPosition = originalCellPosition;
                 if (considerGroundHeight)
                 {
@@ -98,7 +98,7 @@ public class GridBaker : MonoBehaviour
     
     private void OnDrawGizmos()
     {
-        _grid ??= GetComponent<Grid>();
+        grid ??= GetComponent<Grid>();
 
         if (drawBakedGizmo)
         {
@@ -122,7 +122,7 @@ public class GridBaker : MonoBehaviour
                 for (int y = 0; y < gridSize.y; y++)
                 {
                     bool discardCell = false;
-                    var originalCellPosition = _grid.CellToWorld(new Vector3Int(x, y, 0));
+                    var originalCellPosition = grid.CellToWorld(new Vector3Int(x, y, 0));
                     var cellPosition = originalCellPosition;
                     if (considerGroundHeight)
                     {

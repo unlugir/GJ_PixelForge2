@@ -5,7 +5,8 @@ using VContainer;
 
 public class GridActor : MonoBehaviour
 {
-    public int team;
+    public int id;
+    public bool teamA;
     public float health { get; private set; }
     public float maxHealth { get; private set; }
     
@@ -70,7 +71,7 @@ public class GridActor : MonoBehaviour
         {
             var actor = _worldGrid.GetActorAtPosition(cell);
             if (actor == null) continue;
-            if (!actorDefinition.attackAllies && actor.team == team) continue;
+            if (!actorDefinition.attackAllies && actor.teamA == teamA) continue;
             actor.TakeDamage(actorDefinition.damage);
         }
     }

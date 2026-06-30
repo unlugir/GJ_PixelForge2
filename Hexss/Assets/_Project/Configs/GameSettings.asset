@@ -21,3 +21,6 @@ MonoBehaviour:
     spawnPoint: {x: 13, y: 2}
   - actor: {fileID: 2215374460425763754, guid: 60f03d7011f68ec42805d0eedd177b97, type: 3}
     spawnPoint: {x: 13, y: 3}
+  turnTime: 15
+  movesPerTurn: 5
+  allowSoloPlay: 1

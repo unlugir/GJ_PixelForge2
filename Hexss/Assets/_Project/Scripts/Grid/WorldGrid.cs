@@ -31,10 +31,6 @@ public class WorldGrid : MonoBehaviour
     private Dictionary<Vector2Int, WorldCell> _cells = new Dictionary<Vector2Int, WorldCell>();
     private Vector2Int _gridSize;
     
-    private void Awake()
-    {
-        LoadBakedGrid();
-    }
 
     public void RegisterActor(GridActor actor)
     {
@@ -47,8 +43,13 @@ public class WorldGrid : MonoBehaviour
         }
         actor.transform.position = closestCell.worldPosition;
         _gridActors[closestCell.gridPosition] = actor;
+        actor.id = _gridActors.Count + 1;
     }
 
+    public GridActor GetActorById(int id)
+    {
+        return _gridActors.Values.FirstOrDefault(a => a.id == id);
+    }
     public bool TrySetActorPosition(GridActor actor, Vector2Int position)
     {
         if (_gridActors.ContainsKey(position)) return false;
@@ -93,9 +94,10 @@ public class WorldGrid : MonoBehaviour
         return _cells.TryGetValue(gridPosition, out cell);
     }
     
-    private void LoadBakedGrid()
+    public void LoadBakedGrid()
     {
         if (bakedGrid == null) return;
+        Clear();
         _gridSize = bakedGrid.GridSize;
         for (int x = 0; x < _gridSize.x; x++)
             for (int y = 0; y < _gridSize.y; y++)
@@ -104,6 +106,10 @@ public class WorldGrid : MonoBehaviour
                 _cells[new Vector2Int(x, y)] = new WorldCell(bakedGrid.Get(new Vector2Int(x, y)));
             }
         
-        _gridActors = new Dictionary<Vector2Int, GridActor>();
+    }
+    public void Clear()
+    {
+        _cells.Clear();
+        _gridActors.Clear();
     }
 }
