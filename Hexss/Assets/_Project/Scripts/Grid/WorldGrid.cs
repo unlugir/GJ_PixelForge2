@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using DG.Tweening;
 using UnityEngine;
 
 [System.Serializable]
@@ -55,7 +56,9 @@ public class WorldGrid : MonoBehaviour
         var oldPosition = GetActorPosition(actor);
         _gridActors[position] = actor;
         _gridActors.Remove(oldPosition);
-        actor.transform.position = _cells[position].worldPosition;
+        //actor.transform.position = _cells[position].worldPosition;
+        
+        actor.transform.DOMove(_cells[position].worldPosition, 0.5f).SetEase(Ease.InOutBack);
         return true;
     }
     
