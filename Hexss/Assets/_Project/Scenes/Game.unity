@@ -695,8 +695,8 @@ MonoBehaviour:
     Enabled: 0
     DefaultMode: 2
   DefaultBlend:
-    Style: 1
-    Time: 2
+    Style: 5
+    Time: 1
     CustomCurve:
       serializedVersion: 2
       m_Curve: []

@@ -97,7 +97,7 @@ public class GameFlow : MonoBehaviour
                 }
                 var actorPrefab = actorSpawnData.actor;
                 var actor = _resolver.Instantiate(actorPrefab, _actorsParent);
-                actor.teamA = teamA;
+                actor.SetTeam(teamA);
                 _worldGrid.RegisterActor(actor);
                 _worldGrid.TrySetActorPosition(actor, cell);
             }
@@ -146,6 +146,9 @@ public class GameFlow : MonoBehaviour
         actor.UseSkill();
         actor.UseAttack();
         _movesCounter--;
+        
+        //the client, who currently makes a move should be resposible for calling an end on his side
+        // && CURRENT TEAM TURN == MY TEAM
         if (_movesCounter == 0)
             EndTurn();
     }
@@ -161,6 +164,8 @@ public class GameFlow : MonoBehaviour
         _turnTimer -= Time.deltaTime;
         if (_turnTimer <= 0)
         {
+            
+            //the client, who currently makes a move should be resposible for calling an end on his side
             // && CURRENT TEAM TURN == MY TEAM
             //REPLACE WITH A NETWORKED CALL
             EndTurn();

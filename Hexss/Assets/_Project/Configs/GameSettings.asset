@@ -15,12 +15,20 @@ MonoBehaviour:
   roundTime: 30
   maxRounds: 10
   deck:
-  - actor: {fileID: 2215374460425763754, guid: 60f03d7011f68ec42805d0eedd177b97, type: 3}
-    spawnPoint: {x: 13, y: 1}
-  - actor: {fileID: 2215374460425763754, guid: 60f03d7011f68ec42805d0eedd177b97, type: 3}
-    spawnPoint: {x: 13, y: 2}
-  - actor: {fileID: 2215374460425763754, guid: 60f03d7011f68ec42805d0eedd177b97, type: 3}
-    spawnPoint: {x: 13, y: 3}
+  - actor: {fileID: 2215374460425763754, guid: 0b4bb26e519d18f40b3235fa7eae44ac, type: 3}
+    spawnPoint: {x: 1, y: 2}
+  - actor: {fileID: 2215374460425763754, guid: 2f390551204fd0a40a1d249d718d7923, type: 3}
+    spawnPoint: {x: 4, y: 2}
+  - actor: {fileID: 2215374460425763754, guid: 651aa656465a7c14fb7498ef512a9bba, type: 3}
+    spawnPoint: {x: 7, y: 2}
+  - actor: {fileID: 2215374460425763754, guid: 5f746c1bb90995b4ca37b81933139d03, type: 3}
+    spawnPoint: {x: 9, y: 2}
+  - actor: {fileID: 2215374460425763754, guid: 796973ac7f3cb9e43b94e875f55cd844, type: 3}
+    spawnPoint: {x: 12, y: 2}
+  - actor: {fileID: 2215374460425763754, guid: 2f390551204fd0a40a1d249d718d7923, type: 3}
+    spawnPoint: {x: 15, y: 2}
+  - actor: {fileID: 2215374460425763754, guid: 0b4bb26e519d18f40b3235fa7eae44ac, type: 3}
+    spawnPoint: {x: 18, y: 2}
   turnTime: 15
   movesPerTurn: 5
   allowSoloPlay: 1

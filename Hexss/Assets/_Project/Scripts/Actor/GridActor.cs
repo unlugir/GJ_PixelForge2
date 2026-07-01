@@ -10,8 +10,12 @@ public class GridActor : MonoBehaviour
     public float health { get; private set; }
     public float maxHealth { get; private set; }
     
+    [SerializeField] private Color teamAColor = Color.red;
+    [SerializeField] private Color teamBColor = Color.blue;
+    
     [SerializeField] private ActorDefinition actorDefinition;
     [SerializeField] private Collider collider;
+    [SerializeField] private MeshRenderer baseMeshRenderer;
     [Inject] private WorldGrid _worldGrid;
 
     private void Awake()
@@ -24,9 +28,14 @@ public class GridActor : MonoBehaviour
         health = maxHealth = actorDefinition.health;
     }
 
-    void Start()
+    public void SetTeam(bool team)
     {
-        //_worldGrid.RegisterActor(this);
+        teamA = team;
+        SetBaseColor(teamA ? teamAColor : teamBColor);
+        if (teamA)
+            this.transform.rotation = Quaternion.Euler(0, 0, 0);
+        else
+            this.transform.rotation = Quaternion.Euler(0, 180, 0);
     }
 
     public void TakeDamage(float amount)
@@ -54,7 +63,7 @@ public class GridActor : MonoBehaviour
     {
         return actorDefinition.skillPattern;
     }
-
+    
     public void UseSkill()
     {
         if (actorDefinition.skillDefinition == null || actorDefinition.skillPattern == null) return;
@@ -74,5 +83,12 @@ public class GridActor : MonoBehaviour
             if (!actorDefinition.attackAllies && actor.teamA == teamA) continue;
             actor.TakeDamage(actorDefinition.damage);
         }
+    }
+
+    private void SetBaseColor(Color color)
+    {
+        var mbp = new MaterialPropertyBlock();
+        mbp.SetColor("_BaseColor", color);
+        baseMeshRenderer.SetPropertyBlock(mbp);
     }
 }
