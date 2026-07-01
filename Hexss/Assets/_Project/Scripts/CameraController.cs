@@ -1,3 +1,4 @@
+using System;
 using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -14,7 +15,16 @@ public class CameraController : MonoBehaviour
     [SerializeField] private CinemachineCamera team1Camera;
     [SerializeField] private CinemachineCamera team2Camera;
     [SerializeField] private CinemachineCamera menuCamera;
-    
+
+    private Vector3 _team1CameraPosition;
+    private Vector3 _team2CameraPosition;
+    private bool _invertInput;
+    private void Awake()
+    {
+        _team1CameraPosition = team1Camera.transform.position;
+        _team2CameraPosition = team2Camera.transform.position;
+    }
+
     public void ToggleCamera(CameraType type)
     {
         switch (type)
@@ -41,16 +51,25 @@ public class CameraController : MonoBehaviour
 
     public void ToggleTeamCamera(bool teamA)
     {
+        _invertInput = !teamA;
         if (teamA)
             ToggleCamera(CameraType.TeamA);
-        else
+        else{}
             ToggleCamera(CameraType.TeamB);
     }
     public void Move(bool teamA, Vector3 movement)
     {
+        movement = _invertInput ? movement * -1 : movement;
         if (teamA)
             team1Camera.transform.position += movement;
         else
             team2Camera.transform.position += movement;
+    }
+
+    public void ResetCameras()
+    {
+        _invertInput = false;
+        team1Camera.transform.position = _team1CameraPosition;
+        team2Camera.transform.position = _team2CameraPosition;
     }
 }

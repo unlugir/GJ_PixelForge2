@@ -1,6 +1,6 @@
-using System;
+using Coherence;
+using Coherence.Toolkit;
 using UnityEngine;
-using UnityEngine.Serialization;
 using VContainer;
 using VContainer.Unity;
 
@@ -10,6 +10,7 @@ public class GameFlow : MonoBehaviour
     public bool teamATurn { get; private set; }
     
     [SerializeField] private Transform cursor;
+    [SerializeField] private CoherenceSync coherenceSync;
     private Transform _actorsParent;
     
     [Inject] private PlayerController _playerController;
@@ -22,7 +23,7 @@ public class GameFlow : MonoBehaviour
     private bool _isPlaying;
     private int _movesCounter;
     private float _turnTimer;
-    private void Awake()
+    private void Start()
     {
         _isPlaying = true;
         StopGame();
@@ -56,6 +57,8 @@ public class GameFlow : MonoBehaviour
         _isPlaying = true;
         _uiController.ShowHud();
         teamATurn = false;
+        _cameraController.ResetCameras();
+        _cameraController.ToggleTeamCamera(_playerController.teamA);
         EndTurn();
     }
 
@@ -63,7 +66,6 @@ public class GameFlow : MonoBehaviour
     {
         teamATurn = !teamATurn;
         _movesCounter = _gameSettings.movesPerTurn;
-        _cameraController.ToggleTeamCamera(teamATurn);
         _turnTimer = _gameSettings.turnTime;
     }
     
@@ -77,6 +79,7 @@ public class GameFlow : MonoBehaviour
         ClearActors();
         _worldGrid.Clear();
         _isPlaying = false;
+        _cameraController.ResetCameras();
         _cameraController.ToggleCamera(CameraType.Menu);
         _uiController.ShowMenu();   
     }
@@ -118,9 +121,9 @@ public class GameFlow : MonoBehaviour
     {
         var actorPosition = _worldGrid.GetActorPosition(actor);
         var movement = actor.GetMovementPattern();
-        
         var attack = actor.GetAttackPattern();
         var skill = actor.GetSkillPattern();
+        
         _gridDrawer.DrawMovement(movement, actorPosition);
         if (attack != null)
             _gridDrawer.DrawAttack(attack, cell.gridPosition);
@@ -134,23 +137,86 @@ public class GameFlow : MonoBehaviour
         _gridDrawer.ClearAttack();
         _gridDrawer.ClearMovement();
         _gridDrawer.ClearSkill();
-        if (actor.teamA != teamATurn) return;
-        
-        //REPLACE WITH A NETWORKED CALL.
+        if (!CanSendTurnAction(actor)) return;
+        if (!IsValidActorMove(actor, cell.gridPosition)) return;
+
+        SendActorMove(actor.id, cell.gridPosition);
+    }
+
+    private bool CanSendTurnAction(GridActor actor)
+    {
+        if (actor == null || actor.teamA != teamATurn) return false;
+        return _gameSettings.allowSoloPlay || IsMyTurn();
+    }
+
+    private bool CanSendTurnEnd()
+    {
+        return _gameSettings.allowSoloPlay || IsMyTurn();
+    }
+    
+    private bool IsValidActorMove(GridActor actor, Vector2Int targetPosition)
+    {
+        if (actor == null || actor.teamA != teamATurn) return false;
+
         var initialActorPosition = _worldGrid.GetActorPosition(actor);
         var pattern = actor.GetMovementPattern();
         var validMovementCells = pattern.GetValidCellsForOrigin(initialActorPosition);
-        if (!validMovementCells.Contains(cell.gridPosition)) return;
-        if (!_worldGrid.TrySetActorPosition(actor, cell.gridPosition)) return;
+        return validMovementCells.Contains(targetPosition);
+    }
+
+    private bool TryApplyActorMove(int actorId, Vector2Int targetPosition)
+    {
+        var actor = _worldGrid.GetActorById(actorId);
+        if (!_worldGrid.TrySetActorPosition(actor, targetPosition)) return false;
         
         actor.UseSkill();
         actor.UseAttack();
+        return true;
+    }
+
+    private void SendActorMove(int actorId, Vector2Int targetPosition)
+    {
+        if (coherenceSync == null)
+        {
+            ApplyActorMoveCommand(actorId, targetPosition.x, targetPosition.y);
+            return;
+        }
+
+        coherenceSync.SendOrderedCommand<GameFlow>(
+            nameof(ApplyActorMoveCommand),
+            MessageTarget.All,
+            actorId,
+            targetPosition.x,
+            targetPosition.y);
+    }
+
+    [Command(defaultRouting = MessageTarget.All)]
+    public void ApplyActorMoveCommand(int actorId, int targetX, int targetY)
+    {
+        TryApplyActorMove(actorId, new Vector2Int(targetX, targetY));
+
         _movesCounter--;
-        
-        //the client, who currently makes a move should be resposible for calling an end on his side
-        // && CURRENT TEAM TURN == MY TEAM
-        if (_movesCounter == 0)
-            EndTurn();
+        if (_movesCounter <= 0 && CanSendTurnEnd())
+        {
+            SendTurnEnd();
+        }
+    }
+
+    private void SendTurnEnd()
+    {
+        if (coherenceSync == null)
+        {
+            ApplyTurnEndCommand();
+            return;
+        }
+
+        coherenceSync.SendOrderedCommand<GameFlow>(nameof(ApplyTurnEndCommand), MessageTarget.All);
+    }
+
+    [Command(defaultRouting = MessageTarget.All)]
+    public void ApplyTurnEndCommand()
+    {
+        EndTurn();
     }
 
     private void Update()
@@ -162,13 +228,9 @@ public class GameFlow : MonoBehaviour
     {
         UpdateHud();
         _turnTimer -= Time.deltaTime;
-        if (_turnTimer <= 0)
+        if (_turnTimer <= 0 && CanSendTurnEnd())
         {
-            
-            //the client, who currently makes a move should be resposible for calling an end on his side
-            // && CURRENT TEAM TURN == MY TEAM
-            //REPLACE WITH A NETWORKED CALL
-            EndTurn();
+            SendTurnEnd();
         }
     }
     //its a gamejam, relax

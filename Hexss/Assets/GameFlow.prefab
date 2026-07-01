@@ -1,0 +1,432 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7344934487323773443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2071094800642887883}
+  m_Layer: 0
+  m_Name: Cursor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2071094800642887883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344934487323773443}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8696657039230593353}
+  m_Father: {fileID: 632071674399501609}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8585638554655570001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 632071674399501609}
+  - component: {fileID: 886915191735919426}
+  - component: {fileID: 5854212357389838964}
+  - component: {fileID: 4214293135457211001}
+  m_Layer: 0
+  m_Name: GameFlow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &632071674399501609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585638554655570001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2071094800642887883}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &886915191735919426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585638554655570001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fb5df51715763419a224cc1105a946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameFlow
+  cursor: {fileID: 2071094800642887883}
+  coherenceSync: {fileID: 4214293135457211001}
+--- !u!114 &5854212357389838964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585638554655570001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a164704556e4048ad536415c0d7b8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkManager
+  bridge: {fileID: 0}
+  requiredPlayers: 1
+  logStatus: 1
+--- !u!114 &4214293135457211001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8585638554655570001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff62c046a053f416a8dc48ad6483a25e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Coherence.Toolkit::Coherence.Toolkit.CoherenceSync
+  OnAuthorityRequest:
+    m_PersistentCalls:
+      m_Calls: []
+  OnNetworkedInstantiation:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBeforeNetworkedInstantiation:
+    m_PersistentCalls:
+      m_Calls: []
+  OnNetworkedDestruction:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStateRemote:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputRemote:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStateAuthority:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputAuthority:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthorityRequestRejected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAuthTransferComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  OnNetworkedParentChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnInputSimulatorConnected:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRigidbody2DPositionUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRigidbody3DPositionUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRigidbody2DRotationUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRigidbody3DRotationUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  coherenceSyncConfig: {fileID: 11400000, guid: dd415f6dc873fe14c86cbea2d7b877c9, type: 2}
+  archetype:
+    lodLevels:
+    - distance: 0
+    boundComponents:
+    - component: {fileID: 632071674399501609}
+      lodStepsActive: 1
+    - component: {fileID: 886915191735919426}
+      lodStepsActive: 1
+    - component: {fileID: 5854212357389838964}
+      lodStepsActive: 1
+    - component: {fileID: 2071094800642887883}
+      lodStepsActive: 1
+    - component: {fileID: 8696657039230593353}
+      lodStepsActive: 1
+    - component: {fileID: 5701381297972340460}
+      lodStepsActive: 1
+    - component: {fileID: 7564806423589327398}
+      lodStepsActive: 1
+    GeneratesArchetypeDefinition: 0
+  interpolationLocation: 1
+  RigidbodyUpdateMode: 0
+  bakedScriptType: Coherence.Generated.CoherenceSync_38e280b800d194745adabb5e62df9271,
+    Assembly-CSharp
+  isGlobal: 0
+  synchronizeParent: 1
+  approveAuthorityTransferRequests: 1
+  simulationType: 0
+  authorityTransferConfig: -1
+  orphanedBehavior: 1
+  lifetimeType: 1
+  uniquenessType: 1
+  replacementStrategy: 0
+  unsyncedNetworkEntityPriority: 0
+  preserveChildren: 0
+  bindings:
+  - rid: 4387696850294013954
+  - rid: 4387696850294013955
+  - rid: 4387696850294013956
+  scenePrefabInstanceUUID: 
+  coherenceUUID: network_sync
+  assetVersion: 
+  coherenceTag: 
+  componentActions: []
+  floatingOriginMode: 0
+  floatingOriginParentedMode: 1
+  synchronizationChannel: Default
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 4387696850294013954
+      type: {class: PositionBinding, ns: Coherence.Toolkit.Bindings.TransformBindings, asm: Coherence.Toolkit}
+      data:
+        descriptor:
+          rid: 4387696850294013957
+        routing: 0
+        syncMode: 0
+        isPredicted: 0
+        predictionMode: 0
+        guid: b9dd199cf681431c9f0fea75b880b162
+        archetypeData:
+          type: 7
+          minRange: 0
+          maxRange: 0
+          sampleRate: 20
+          floatCompression: 0
+          fields:
+          - type: 7
+            bits: 32
+            precision: 0.001
+            floatCompression: 0
+        unityComponent: {fileID: 632071674399501609}
+        coherenceSync: {fileID: 4214293135457211001}
+        _interpolationSettings: {fileID: 11400000, guid: ae4419d1d9a8643709bf5f6b90c584a5, type: 2}
+    - rid: 4387696850294013955
+      type: {class: CommandBinding, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        descriptor:
+          rid: 4387696850294013958
+        routing: 1
+        syncMode: 0
+        isPredicted: 0
+        predictionMode: 0
+        guid: 4373085ace234ad9a7db019e3374a185
+        archetypeData:
+          type: 0
+          minRange: 0
+          maxRange: 0
+          sampleRate: 20
+          floatCompression: 0
+          fields: []
+        unityComponent: {fileID: 886915191735919426}
+        coherenceSync: {fileID: 4214293135457211001}
+        _interpolationSettings: {fileID: 0}
+    - rid: 4387696850294013956
+      type: {class: CommandBinding, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        descriptor:
+          rid: 4387696850294013959
+        routing: 1
+        syncMode: 0
+        isPredicted: 0
+        predictionMode: 0
+        guid: 04a0ec25eaf34733950c64b1111982f1
+        archetypeData:
+          type: 0
+          minRange: 0
+          maxRange: 0
+          sampleRate: 20
+          floatCompression: 0
+          fields: []
+        unityComponent: {fileID: 886915191735919426}
+        coherenceSync: {fileID: 4214293135457211001}
+        _interpolationSettings: {fileID: 0}
+    - rid: 4387696850294013957
+      type: {class: Descriptor, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        name: position
+        monoAssemblyType: UnityEngine.Vector3, UnityEngine
+        required: 1
+        enforcesLODingWhenFieldsOverriden: 1
+        valueSyncCallbackName: 
+        memberType: 64
+        parameterAssemblyTypes: []
+        ownerType:
+          assemblyQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+        defaultSyncMode: 0
+        CustomData:
+          rid: -2
+        bindingType:
+          assemblyQualifiedName: Coherence.Toolkit.Bindings.TransformBindings.PositionBinding,
+            Coherence.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        oldName: 
+        oldParameterAssemblyTypes: []
+    - rid: 4387696850294013958
+      type: {class: Descriptor, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        name: ApplyActorMoveCommand
+        monoAssemblyType: 
+        required: 1
+        enforcesLODingWhenFieldsOverriden: 0
+        valueSyncCallbackName: 
+        memberType: 8
+        parameterAssemblyTypes:
+        - System.Int32, mscorlib
+        - System.Int32, mscorlib
+        - System.Int32, mscorlib
+        ownerType:
+          assemblyQualifiedName: GameFlow, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        defaultSyncMode: 0
+        CustomData:
+          rid: -2
+        bindingType:
+          assemblyQualifiedName: Coherence.Toolkit.Bindings.CommandBinding, Coherence.Toolkit,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        oldName: 
+        oldParameterAssemblyTypes: []
+    - rid: 4387696850294013959
+      type: {class: Descriptor, ns: Coherence.Toolkit.Bindings, asm: Coherence.Toolkit}
+      data:
+        name: ApplyTurnEndCommand
+        monoAssemblyType: 
+        required: 1
+        enforcesLODingWhenFieldsOverriden: 0
+        valueSyncCallbackName: 
+        memberType: 8
+        parameterAssemblyTypes: []
+        ownerType:
+          assemblyQualifiedName: GameFlow, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+        defaultSyncMode: 0
+        CustomData:
+          rid: -2
+        bindingType:
+          assemblyQualifiedName: Coherence.Toolkit.Bindings.CommandBinding, Coherence.Toolkit,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        oldName: 
+        oldParameterAssemblyTypes: []
+--- !u!1001 &9167643278894436002
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2071094800642887883}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_RayTracingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d772846b934361249865579d3e9b0e1b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_Name
+      value: hextop
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+--- !u!33 &5701381297972340460 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+  m_PrefabInstance: {fileID: 9167643278894436002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7564806423589327398 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+  m_PrefabInstance: {fileID: 9167643278894436002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8696657039230593353 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7a628b9ecef52ef4fa89229a31314135, type: 3}
+  m_PrefabInstance: {fileID: 9167643278894436002}
+  m_PrefabAsset: {fileID: 0}

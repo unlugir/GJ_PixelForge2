@@ -50,15 +50,13 @@ public class WorldGrid : MonoBehaviour
     {
         return _gridActors.Values.FirstOrDefault(a => a.id == id);
     }
+    
     public bool TrySetActorPosition(GridActor actor, Vector2Int position)
     {
         if (_gridActors.ContainsKey(position)) return false;
-        
         var oldPosition = GetActorPosition(actor);
         _gridActors[position] = actor;
         _gridActors.Remove(oldPosition);
-        //actor.transform.position = _cells[position].worldPosition;
-        
         actor.transform.DOMove(_cells[position].worldPosition, 0.5f).SetEase(Ease.InOutBack);
         return true;
     }

@@ -31,4 +31,4 @@ MonoBehaviour:
     spawnPoint: {x: 18, y: 2}
   turnTime: 15
   movesPerTurn: 5
-  allowSoloPlay: 1
+  allowSoloPlay: 0
