@@ -25,7 +25,7 @@ MonoBehaviour:
     LogFilePath: Logs/player_logs.txt
     MigratedToSerializedObject: 0
     FileLogLevel: 1
-  schemaID: 6117de86c5293849ab56efa7d85a9d1e306b324e
+  schemaID: a46bfe53027edbce1563c226003bb0ed089c0912
   versionInfo: {fileID: 11400000, guid: 2191b6f902c97477baa32a7919010503, type: 2}
   runtimeKey: d1f33addf03942e7ba7cbe841d694d90
   simulatorSlug: 

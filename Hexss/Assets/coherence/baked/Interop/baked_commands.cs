@@ -516,8 +516,11 @@ namespace Coherence.Generated
                 };   
             }
         }
-        public struct _38e280b800d194745adabb5e62df9271_04a0ec25eaf34733950c64b1111982f1 : IEntityCommand
+        public struct _31c8ee0907a477240a7a22f500499697_6473b1476e6d44a4b4f06f1b318acf34 : IEntityCommand
         {
+                public System.Int32 actorId;
+                public System.Int32 targetX;
+                public System.Int32 targetY;
             
             public Entity Entity { get; set; }
             public Coherence.ChannelID ChannelID { get; set; }
@@ -566,27 +569,53 @@ namespace Coherence.Generated
             public void NullEntityRefs(Entity entity) {
             }
             
-            
-            public static void Serialize(_38e280b800d194745adabb5e62df9271_04a0ec25eaf34733950c64b1111982f1 commandData, IOutProtocolBitStream bitStream)
+            public _31c8ee0907a477240a7a22f500499697_6473b1476e6d44a4b4f06f1b318acf34(
+                Entity entity,
+                System.Int32 actorId,
+                System.Int32 targetX,
+                System.Int32 targetY
+            )
             {
+                Entity = entity;
+                ChannelID = Coherence.ChannelID.Default;
+                Target = default;
+                Routing = MessageTarget.All;
+                SenderParticipant = 0;
+                SenderClientID = default;
+                Frame = 0;
+                UsesMeta = false;
+                
+                this.actorId = actorId; 
+                this.targetX = targetX; 
+                this.targetY = targetY; 
             }
             
-            public static _38e280b800d194745adabb5e62df9271_04a0ec25eaf34733950c64b1111982f1 Deserialize(IInProtocolBitStream bitStream, Entity entity, MessageTarget target)
+            public static void Serialize(_31c8ee0907a477240a7a22f500499697_6473b1476e6d44a4b4f06f1b318acf34 commandData, IOutProtocolBitStream bitStream)
             {
+                bitStream.WriteIntegerRange(commandData.actorId, 32, -2147483648);
+                bitStream.WriteIntegerRange(commandData.targetX, 32, -2147483648);
+                bitStream.WriteIntegerRange(commandData.targetY, 32, -2147483648);
+            }
+            
+            public static _31c8ee0907a477240a7a22f500499697_6473b1476e6d44a4b4f06f1b318acf34 Deserialize(IInProtocolBitStream bitStream, Entity entity, MessageTarget target)
+            {
+                var dataactorId = bitStream.ReadIntegerRange(32, -2147483648);
+                var datatargetX = bitStream.ReadIntegerRange(32, -2147483648);
+                var datatargetY = bitStream.ReadIntegerRange(32, -2147483648);
         
-                return new _38e280b800d194745adabb5e62df9271_04a0ec25eaf34733950c64b1111982f1()
+                return new _31c8ee0907a477240a7a22f500499697_6473b1476e6d44a4b4f06f1b318acf34()
                 {
                     Entity = entity,
                     Routing = target,
                     Target = target,
+                    actorId = dataactorId,
+                    targetX = datatargetX,
+                    targetY = datatargetY
                 };   
             }
         }
-        public struct _38e280b800d194745adabb5e62df9271_4373085ace234ad9a7db019e3374a185 : IEntityCommand
+        public struct _31c8ee0907a477240a7a22f500499697_fe954be45272475db028e2cfc06936bf : IEntityCommand
         {
-                public System.Int32 actorId;
-                public System.Int32 targetX;
-                public System.Int32 targetY;
             
             public Entity Entity { get; set; }
             public Coherence.ChannelID ChannelID { get; set; }
@@ -635,48 +664,19 @@ namespace Coherence.Generated
             public void NullEntityRefs(Entity entity) {
             }
             
-            public _38e280b800d194745adabb5e62df9271_4373085ace234ad9a7db019e3374a185(
-                Entity entity,
-                System.Int32 actorId,
-                System.Int32 targetX,
-                System.Int32 targetY
-            )
+            
+            public static void Serialize(_31c8ee0907a477240a7a22f500499697_fe954be45272475db028e2cfc06936bf commandData, IOutProtocolBitStream bitStream)
             {
-                Entity = entity;
-                ChannelID = Coherence.ChannelID.Default;
-                Target = default;
-                Routing = MessageTarget.All;
-                SenderParticipant = 0;
-                SenderClientID = default;
-                Frame = 0;
-                UsesMeta = false;
-                
-                this.actorId = actorId; 
-                this.targetX = targetX; 
-                this.targetY = targetY; 
             }
             
-            public static void Serialize(_38e280b800d194745adabb5e62df9271_4373085ace234ad9a7db019e3374a185 commandData, IOutProtocolBitStream bitStream)
+            public static _31c8ee0907a477240a7a22f500499697_fe954be45272475db028e2cfc06936bf Deserialize(IInProtocolBitStream bitStream, Entity entity, MessageTarget target)
             {
-                bitStream.WriteIntegerRange(commandData.actorId, 32, -2147483648);
-                bitStream.WriteIntegerRange(commandData.targetX, 32, -2147483648);
-                bitStream.WriteIntegerRange(commandData.targetY, 32, -2147483648);
-            }
-            
-            public static _38e280b800d194745adabb5e62df9271_4373085ace234ad9a7db019e3374a185 Deserialize(IInProtocolBitStream bitStream, Entity entity, MessageTarget target)
-            {
-                var dataactorId = bitStream.ReadIntegerRange(32, -2147483648);
-                var datatargetX = bitStream.ReadIntegerRange(32, -2147483648);
-                var datatargetY = bitStream.ReadIntegerRange(32, -2147483648);
         
-                return new _38e280b800d194745adabb5e62df9271_4373085ace234ad9a7db019e3374a185()
+                return new _31c8ee0907a477240a7a22f500499697_fe954be45272475db028e2cfc06936bf()
                 {
                     Entity = entity,
                     Routing = target,
                     Target = target,
-                    actorId = dataactorId,
-                    targetX = datatargetX,
-                    targetY = datatargetY
                 };   
             }
         }

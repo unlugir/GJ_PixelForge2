@@ -16,6 +16,7 @@ public class NetworkManager : MonoBehaviour
     public bool isMatchInProgress { get; private set; }
 
     private bool _clientConnectionEventsRegistered;
+    private bool _disconnectCleanupHandled;
     
 
     private void OnEnable()
@@ -23,6 +24,7 @@ public class NetworkManager : MonoBehaviour
         if (bridge == null)
         {
             Debug.LogError($"{nameof(NetworkManager)} needs a {nameof(CoherenceBridge)} in the scene.", this);
+            enabled = false;
             return;
         }
 
@@ -39,11 +41,21 @@ public class NetworkManager : MonoBehaviour
 
     private void Start()
     {
+        if (bridge == null)
+        {
+            return;
+        }
+
         EvaluateMatchReadiness();
     }
 
     private void OnDisable()
     {
+        if (bridge != null && !bridge.IsConnected)
+        {
+            CleanupAfterDisconnect();
+        }
+
         if (bridge != null)
         {
             bridge.onConnected.RemoveListener(OnBridgeConnected);
@@ -56,6 +68,7 @@ public class NetworkManager : MonoBehaviour
 
     private void OnBridgeConnected(CoherenceBridge _)
     {
+        _disconnectCleanupHandled = false;
         RegisterClientConnectionEvents();
         EvaluateMatchReadiness();
     }
@@ -68,10 +81,24 @@ public class NetworkManager : MonoBehaviour
 
     private void OnBridgeDisconnected(CoherenceBridge _, ConnectionCloseReason __)
     {
+        CleanupAfterDisconnect();
+        UnregisterClientConnectionEvents();
+    }
+
+    private void CleanupAfterDisconnect()
+    {
+        if (_disconnectCleanupHandled)
+        {
+            return;
+        }
+
         connectedPlayerCount = 0;
         isMatchInProgress = false;
-        _gameFlow.StopGame();
-        UnregisterClientConnectionEvents();
+        if (_gameFlow != null)
+        {
+            _gameFlow.StopGame();
+        }
+        _disconnectCleanupHandled = true;
     }
 
     private void OnClientConnectionCreated(CoherenceClientConnection _)
@@ -126,7 +153,10 @@ public class NetworkManager : MonoBehaviour
     {
         if (bridge?.ClientConnections == null)
         {
-            _gameFlow.StopGame();
+            if (_gameFlow != null)
+            {
+                _gameFlow.StopGame();
+            }
             return;
         }
 

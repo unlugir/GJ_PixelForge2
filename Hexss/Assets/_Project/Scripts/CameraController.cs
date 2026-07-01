@@ -54,7 +54,7 @@ public class CameraController : MonoBehaviour
         _invertInput = !teamA;
         if (teamA)
             ToggleCamera(CameraType.TeamA);
-        else{}
+        else
             ToggleCamera(CameraType.TeamB);
     }
     public void Move(bool teamA, Vector3 movement)

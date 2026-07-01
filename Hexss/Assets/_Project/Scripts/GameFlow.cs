@@ -1,5 +1,3 @@
-using Coherence;
-using Coherence.Toolkit;
 using UnityEngine;
 using VContainer;
 using VContainer.Unity;
@@ -10,9 +8,8 @@ public class GameFlow : MonoBehaviour
     public bool teamATurn { get; private set; }
     
     [SerializeField] private Transform cursor;
-    [SerializeField] private CoherenceSync coherenceSync;
     private Transform _actorsParent;
-    
+    private PlayerCommands _playerCommands;
     [Inject] private PlayerController _playerController;
     [Inject] private WorldGrid _worldGrid;
     [Inject] private GridDrawer _gridDrawer;
@@ -25,9 +22,11 @@ public class GameFlow : MonoBehaviour
     private float _turnTimer;
     private void Start()
     {
+
         _isPlaying = true;
         StopGame();
     }
+    
 
     public void SetTeam(bool teamA)
     {
@@ -176,22 +175,17 @@ public class GameFlow : MonoBehaviour
 
     private void SendActorMove(int actorId, Vector2Int targetPosition)
     {
-        if (coherenceSync == null)
+        var playerCommands = GetLocalPlayerCommands();
+        if (playerCommands == null)
         {
-            ApplyActorMoveCommand(actorId, targetPosition.x, targetPosition.y);
+            ApplyActorMove(actorId, targetPosition.x, targetPosition.y);
             return;
         }
 
-        coherenceSync.SendOrderedCommand<GameFlow>(
-            nameof(ApplyActorMoveCommand),
-            MessageTarget.All,
-            actorId,
-            targetPosition.x,
-            targetPosition.y);
+        playerCommands.RequestActorMove(actorId, targetPosition);
     }
 
-    [Command(defaultRouting = MessageTarget.All)]
-    public void ApplyActorMoveCommand(int actorId, int targetX, int targetY)
+    public void ApplyActorMove(int actorId, int targetX, int targetY)
     {
         TryApplyActorMove(actorId, new Vector2Int(targetX, targetY));
 
@@ -204,19 +198,41 @@ public class GameFlow : MonoBehaviour
 
     private void SendTurnEnd()
     {
-        if (coherenceSync == null)
+        var playerCommands = GetLocalPlayerCommands();
+        if (playerCommands == null)
         {
-            ApplyTurnEndCommand();
+            ApplyTurnEnd();
             return;
         }
 
-        coherenceSync.SendOrderedCommand<GameFlow>(nameof(ApplyTurnEndCommand), MessageTarget.All);
+        playerCommands.RequestTurnEnd();
     }
 
-    [Command(defaultRouting = MessageTarget.All)]
-    public void ApplyTurnEndCommand()
+    public void ApplyTurnEnd()
     {
         EndTurn();
+    }
+
+    private PlayerCommands GetLocalPlayerCommands()
+    {
+        if (_playerCommands != null && _playerCommands.isLocalPlayer)
+        {
+            return _playerCommands;
+        }
+
+        var playerCommands = FindObjectsByType<PlayerCommands>(
+            FindObjectsInactive.Exclude,
+            FindObjectsSortMode.None);
+
+        foreach (var commands in playerCommands)
+        {
+            if (!commands.isLocalPlayer) continue;
+
+            _playerCommands = commands;
+            return _playerCommands;
+        }
+
+        return null;
     }
 
     private void Update()
